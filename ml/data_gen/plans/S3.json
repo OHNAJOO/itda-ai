@@ -1,0 +1,10572 @@
+[
+ {
+  "events": [
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0000"
+ },
+ {
+  "events": [
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": "어제",
+    "count": 1
+   },
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": "요즘",
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0001"
+ },
+ {
+  "events": [
+   {
+    "type": "low_mood_apathy",
+    "status": "absent",
+    "time_expr": "2일 전",
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "증상이 있었는지 스스로 묻는 의문문 (예: 밤에 좀 부스럭거리셨나?)"
+  ],
+  "id": "S3-0002"
+ },
+ {
+  "events": [
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": "저녁에",
+    "count": 1
+   },
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0003"
+ },
+ {
+  "events": [
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "예전에 잘하시던 일을 떠올림 (오래된 과거 회상)"
+  ],
+  "id": "S3-0004"
+ },
+ {
+  "events": [
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0005"
+ },
+ {
+  "events": [
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0006"
+ },
+ {
+  "events": [
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": "며칠 전",
+    "count": 1
+   },
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "anxiety",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "low_mood_apathy",
+    "status": "absent",
+    "time_expr": "어제",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0007"
+ },
+ {
+  "events": [
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "delusion",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0008"
+ },
+ {
+  "events": [
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0009"
+ },
+ {
+  "events": [
+   {
+    "type": "wandering_exit",
+    "status": "absent",
+    "time_expr": "새벽에",
+    "count": 1
+   },
+   {
+    "type": "low_mood_apathy",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0010"
+ },
+ {
+  "events": [
+   {
+    "type": "hallucination",
+    "status": "absent",
+    "time_expr": "요즘",
+    "count": 1
+   },
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0011"
+ },
+ {
+  "events": [
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": "어제 저녁",
+    "count": 1
+   },
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": "새벽에",
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0012"
+ },
+ {
+  "events": [
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": "새벽에",
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0013"
+ },
+ {
+  "events": [
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": "며칠 전",
+    "count": 3
+   },
+   {
+    "type": "irritability",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0014"
+ },
+ {
+  "events": [
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0015"
+ },
+ {
+  "events": [
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": "아까",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0016"
+ },
+ {
+  "events": [
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": "저녁에",
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0017"
+ },
+ {
+  "events": [
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": "2일 전",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0018"
+ },
+ {
+  "events": [
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0019"
+ },
+ {
+  "events": [
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "오늘 가족이 다녀감"
+  ],
+  "id": "S3-0020"
+ },
+ {
+  "events": [
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": "요즘",
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0021"
+ },
+ {
+  "events": [
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [
+   "오늘 가족이 다녀감"
+  ],
+  "id": "S3-0022"
+ },
+ {
+  "events": [
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": "새벽에",
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "증상이 있었는지 스스로 묻는 의문문 (예: 밤에 좀 부스럭거리셨나?)"
+  ],
+  "id": "S3-0023"
+ },
+ {
+  "events": [],
+  "distractors": [],
+  "id": "S3-0024"
+ },
+ {
+  "events": [
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "hallucination",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0025"
+ },
+ {
+  "events": [
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": "그저께",
+    "count": 1
+   },
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": "낮에",
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "낮에 소파에서 한참 주무심 (낮잠)"
+  ],
+  "id": "S3-0026"
+ },
+ {
+  "events": [],
+  "distractors": [],
+  "id": "S3-0027"
+ },
+ {
+  "events": [
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "낮에 소파에서 한참 주무심 (낮잠)"
+  ],
+  "id": "S3-0028"
+ },
+ {
+  "events": [
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": "새벽 3시쯤",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0029"
+ },
+ {
+  "events": [
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "irritability",
+    "status": "absent",
+    "time_expr": "며칠 전",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0030"
+ },
+ {
+  "events": [
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": "새벽 3시쯤",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0031"
+ },
+ {
+  "events": [
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0032"
+ },
+ {
+  "events": [
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "오늘 가족이 다녀감"
+  ],
+  "id": "S3-0033"
+ },
+ {
+  "events": [
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [
+   "오늘 가족이 다녀감"
+  ],
+  "id": "S3-0034"
+ },
+ {
+  "events": [
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": "새벽 3시쯤",
+    "count": 1
+   },
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0035"
+ },
+ {
+  "events": [
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": "오늘",
+    "count": 1
+   },
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0036"
+ },
+ {
+  "events": [
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0037"
+ },
+ {
+  "events": [
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0038"
+ },
+ {
+  "events": [
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   }
+  ],
+  "distractors": [
+   "예전에 잘하시던 일을 떠올림 (오래된 과거 회상)"
+  ],
+  "id": "S3-0039"
+ },
+ {
+  "events": [
+   {
+    "type": "wandering_exit",
+    "status": "absent",
+    "time_expr": "낮에",
+    "count": 1
+   },
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0040"
+ },
+ {
+  "events": [
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": "새벽에",
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0041"
+ },
+ {
+  "events": [
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": "낮에",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0042"
+ },
+ {
+  "events": [
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": "2일 전",
+    "count": 2
+   },
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": "오늘",
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "밥 양만 적음. 줄었다는 말 없이 (예: 저녁은 반 공기 드심)"
+  ],
+  "id": "S3-0043"
+ },
+ {
+  "events": [
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0044"
+ },
+ {
+  "events": [
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": "새벽에",
+    "count": 3
+   },
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0045"
+ },
+ {
+  "events": [
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": "어제 저녁",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0046"
+ },
+ {
+  "events": [
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": "며칠 전",
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0047"
+ },
+ {
+  "events": [
+   {
+    "type": "low_mood_apathy",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0048"
+ },
+ {
+  "events": [
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0049"
+ },
+ {
+  "events": [
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": "새벽 3시쯤",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0050"
+ },
+ {
+  "events": [
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "fall",
+    "status": "absent",
+    "time_expr": "어젯밤",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0051"
+ },
+ {
+  "events": [
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": "낮에",
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0052"
+ },
+ {
+  "events": [
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": "어젯밤",
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0053"
+ },
+ {
+  "events": [
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0054"
+ },
+ {
+  "events": [
+   {
+    "type": "reduced_intake",
+    "status": "absent",
+    "time_expr": "새벽 3시쯤",
+    "count": 1
+   },
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "오늘 가족이 다녀감"
+  ],
+  "id": "S3-0055"
+ },
+ {
+  "events": [
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": "새벽 3시쯤",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0056"
+ },
+ {
+  "events": [],
+  "distractors": [],
+  "id": "S3-0057"
+ },
+ {
+  "events": [
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": "어제",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0058"
+ },
+ {
+  "events": [
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": "어제 저녁",
+    "count": 2
+   },
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0059"
+ },
+ {
+  "events": [],
+  "distractors": [],
+  "id": "S3-0060"
+ },
+ {
+  "events": [
+   {
+    "type": "agitation",
+    "status": "absent",
+    "time_expr": "어제",
+    "count": 1
+   },
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": "아까",
+    "count": 1
+   },
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": "새벽에",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0061"
+ },
+ {
+  "events": [
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [
+   "보호자 자신이 힘들다는 말 (예: 나도 너무 지친다)"
+  ],
+  "id": "S3-0062"
+ },
+ {
+  "events": [
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0063"
+ },
+ {
+  "events": [
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": "2일 전",
+    "count": 1
+   },
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0064"
+ },
+ {
+  "events": [
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": "아까",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0065"
+ },
+ {
+  "events": [],
+  "distractors": [],
+  "id": "S3-0066"
+ },
+ {
+  "events": [
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0067"
+ },
+ {
+  "events": [],
+  "distractors": [],
+  "id": "S3-0068"
+ },
+ {
+  "events": [
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": "며칠 전",
+    "count": 1
+   },
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0069"
+ },
+ {
+  "events": [
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "밥 양만 적음. 줄었다는 말 없이 (예: 저녁은 반 공기 드심)"
+  ],
+  "id": "S3-0070"
+ },
+ {
+  "events": [
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0071"
+ },
+ {
+  "events": [],
+  "distractors": [],
+  "id": "S3-0072"
+ },
+ {
+  "events": [
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   }
+  ],
+  "distractors": [
+   "같은 질문을 여러 번 되풀이하심 (반복 질문)"
+  ],
+  "id": "S3-0073"
+ },
+ {
+  "events": [
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0074"
+ },
+ {
+  "events": [
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": "오늘",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0075"
+ },
+ {
+  "events": [
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": "새벽 3시쯤",
+    "count": 3
+   },
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0076"
+ },
+ {
+  "events": [
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "agitation",
+    "status": "absent",
+    "time_expr": "2일 전",
+    "count": 1
+   },
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": "며칠 전",
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0077"
+ },
+ {
+  "events": [
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": "2일 전",
+    "count": 2
+   },
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0078"
+ },
+ {
+  "events": [
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": "새벽 3시쯤",
+    "count": 2
+   },
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": "요즘",
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0079"
+ },
+ {
+  "events": [
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": "저녁에",
+    "count": 1
+   },
+   {
+    "type": "medication_refusal",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": "어제 저녁",
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0080"
+ },
+ {
+  "events": [
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": "저녁에",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0081"
+ },
+ {
+  "events": [
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0082"
+ },
+ {
+  "events": [
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "night_waking",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0083"
+ },
+ {
+  "events": [
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": "며칠 전",
+    "count": 1
+   },
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0084"
+ },
+ {
+  "events": [
+   {
+    "type": "agitation",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   }
+  ],
+  "distractors": [
+   "의사 선생님이 한 말을 옮김"
+  ],
+  "id": "S3-0085"
+ },
+ {
+  "events": [
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0086"
+ },
+ {
+  "events": [
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": "아까",
+    "count": 1
+   },
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0087"
+ },
+ {
+  "events": [
+   {
+    "type": "low_mood_apathy",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": "오늘",
+    "count": 1
+   },
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": "오늘",
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0088"
+ },
+ {
+  "events": [
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [
+   "낮에 소파에서 한참 주무심 (낮잠)"
+  ],
+  "id": "S3-0089"
+ },
+ {
+  "events": [
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0090"
+ },
+ {
+  "events": [
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0091"
+ },
+ {
+  "events": [],
+  "distractors": [
+   "예전에 잘하시던 일을 떠올림 (오래된 과거 회상)"
+  ],
+  "id": "S3-0092"
+ },
+ {
+  "events": [
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": "새벽에",
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "의사 선생님이 한 말을 옮김"
+  ],
+  "id": "S3-0093"
+ },
+ {
+  "events": [
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": "어젯밤",
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0094"
+ },
+ {
+  "events": [
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": "어제",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0095"
+ },
+ {
+  "events": [
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0096"
+ },
+ {
+  "events": [
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0097"
+ },
+ {
+  "events": [],
+  "distractors": [
+   "낮에 소파에서 한참 주무심 (낮잠)"
+  ],
+  "id": "S3-0098"
+ },
+ {
+  "events": [
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": "저녁에",
+    "count": 1
+   },
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0099"
+ },
+ {
+  "events": [
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": "오늘",
+    "count": 1
+   },
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": "새벽에",
+    "count": 1
+   },
+   {
+    "type": "night_waking",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0100"
+ },
+ {
+  "events": [
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [
+   "증상이 있었는지 스스로 묻는 의문문 (예: 밤에 좀 부스럭거리셨나?)"
+  ],
+  "id": "S3-0101"
+ },
+ {
+  "events": [
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [
+   "증상이 있었는지 스스로 묻는 의문문 (예: 밤에 좀 부스럭거리셨나?)"
+  ],
+  "id": "S3-0102"
+ },
+ {
+  "events": [
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0103"
+ },
+ {
+  "events": [
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0104"
+ },
+ {
+  "events": [
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": "아까",
+    "count": 3
+   },
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0105"
+ },
+ {
+  "events": [
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0106"
+ },
+ {
+  "events": [],
+  "distractors": [],
+  "id": "S3-0107"
+ },
+ {
+  "events": [
+   {
+    "type": "medication_refusal",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0108"
+ },
+ {
+  "events": [
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": "그저께",
+    "count": 1
+   },
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0109"
+ },
+ {
+  "events": [
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": "아까",
+    "count": 1
+   },
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0110"
+ },
+ {
+  "events": [
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "anxiety",
+    "status": "absent",
+    "time_expr": "새벽 3시쯤",
+    "count": 1
+   },
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0111"
+ },
+ {
+  "events": [
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0112"
+ },
+ {
+  "events": [
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "밥 양만 적음. 줄었다는 말 없이 (예: 저녁은 반 공기 드심)"
+  ],
+  "id": "S3-0113"
+ },
+ {
+  "events": [
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0114"
+ },
+ {
+  "events": [
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": "낮에",
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0115"
+ },
+ {
+  "events": [
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0116"
+ },
+ {
+  "events": [
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": "그저께",
+    "count": 2
+   },
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   }
+  ],
+  "distractors": [
+   "오늘 가족이 다녀감"
+  ],
+  "id": "S3-0117"
+ },
+ {
+  "events": [
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0118"
+ },
+ {
+  "events": [
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": "낮에",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0119"
+ },
+ {
+  "events": [
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": "어제 저녁",
+    "count": 3
+   },
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0120"
+ },
+ {
+  "events": [],
+  "distractors": [],
+  "id": "S3-0121"
+ },
+ {
+  "events": [
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": "며칠 전",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0122"
+ },
+ {
+  "events": [
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": "오늘",
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0123"
+ },
+ {
+  "events": [
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0124"
+ },
+ {
+  "events": [
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0125"
+ },
+ {
+  "events": [],
+  "distractors": [],
+  "id": "S3-0126"
+ },
+ {
+  "events": [
+   {
+    "type": "irritability",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0127"
+ },
+ {
+  "events": [
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0128"
+ },
+ {
+  "events": [
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0129"
+ },
+ {
+  "events": [
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": "2일 전",
+    "count": 1
+   },
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "보호자 자신이 힘들다는 말 (예: 나도 너무 지친다)"
+  ],
+  "id": "S3-0130"
+ },
+ {
+  "events": [
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": "낮에",
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0131"
+ },
+ {
+  "events": [
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": "새벽에",
+    "count": 1
+   },
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": "며칠 전",
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0132"
+ },
+ {
+  "events": [
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   }
+  ],
+  "distractors": [
+   "소변 실수를 하심 (실금)"
+  ],
+  "id": "S3-0133"
+ },
+ {
+  "events": [
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0134"
+ },
+ {
+  "events": [
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [
+   "같은 질문을 여러 번 되풀이하심 (반복 질문)"
+  ],
+  "id": "S3-0135"
+ },
+ {
+  "events": [
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": "낮에",
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "오늘 가족이 다녀감"
+  ],
+  "id": "S3-0136"
+ },
+ {
+  "events": [],
+  "distractors": [],
+  "id": "S3-0137"
+ },
+ {
+  "events": [
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": "요즘",
+    "count": 2
+   },
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": "새벽 3시쯤",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0138"
+ },
+ {
+  "events": [
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0139"
+ },
+ {
+  "events": [
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "wandering_exit",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0140"
+ },
+ {
+  "events": [
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0141"
+ },
+ {
+  "events": [
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0142"
+ },
+ {
+  "events": [
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "의사 선생님이 한 말을 옮김"
+  ],
+  "id": "S3-0143"
+ },
+ {
+  "events": [
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0144"
+ },
+ {
+  "events": [
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0145"
+ },
+ {
+  "events": [
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "wandering_exit",
+    "status": "absent",
+    "time_expr": "저녁에",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0146"
+ },
+ {
+  "events": [
+   {
+    "type": "night_waking",
+    "status": "absent",
+    "time_expr": "새벽 3시쯤",
+    "count": 1
+   },
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "예전에 잘하시던 일을 떠올림 (오래된 과거 회상)"
+  ],
+  "id": "S3-0147"
+ },
+ {
+  "events": [
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0148"
+ },
+ {
+  "events": [
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0149"
+ },
+ {
+  "events": [
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": "새벽 3시쯤",
+    "count": 3
+   },
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0150"
+ },
+ {
+  "events": [
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": "2일 전",
+    "count": 1
+   },
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": "요즘",
+    "count": 2
+   },
+   {
+    "type": "night_waking",
+    "status": "absent",
+    "time_expr": "새벽에",
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "밥 양만 적음. 줄었다는 말 없이 (예: 저녁은 반 공기 드심)"
+  ],
+  "id": "S3-0151"
+ },
+ {
+  "events": [
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "같은 질문을 여러 번 되풀이하심 (반복 질문)"
+  ],
+  "id": "S3-0152"
+ },
+ {
+  "events": [
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": "새벽 3시쯤",
+    "count": 1
+   },
+   {
+    "type": "confusion",
+    "status": "absent",
+    "time_expr": "오늘",
+    "count": 1
+   },
+   {
+    "type": "wandering_exit",
+    "status": "absent",
+    "time_expr": "요즘",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0153"
+ },
+ {
+  "events": [],
+  "distractors": [],
+  "id": "S3-0154"
+ },
+ {
+  "events": [
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": "요즘",
+    "count": 3
+   },
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": "요즘",
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0155"
+ },
+ {
+  "events": [],
+  "distractors": [],
+  "id": "S3-0156"
+ },
+ {
+  "events": [
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0157"
+ },
+ {
+  "events": [
+   {
+    "type": "fall",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0158"
+ },
+ {
+  "events": [
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": "낮에",
+    "count": 2
+   },
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "의사 선생님이 한 말을 옮김"
+  ],
+  "id": "S3-0159"
+ },
+ {
+  "events": [
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": "아까",
+    "count": 1
+   },
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0160"
+ },
+ {
+  "events": [
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": "며칠 전",
+    "count": 1
+   },
+   {
+    "type": "irritability",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0161"
+ },
+ {
+  "events": [
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0162"
+ },
+ {
+  "events": [
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": "새벽 3시쯤",
+    "count": 3
+   },
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "약을 잘 챙겨 드심 (정상 복용)"
+  ],
+  "id": "S3-0163"
+ },
+ {
+  "events": [
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0164"
+ },
+ {
+  "events": [
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": "아까",
+    "count": 3
+   },
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "밥 양만 적음. 줄었다는 말 없이 (예: 저녁은 반 공기 드심)"
+  ],
+  "id": "S3-0165"
+ },
+ {
+  "events": [],
+  "distractors": [],
+  "id": "S3-0166"
+ },
+ {
+  "events": [
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": "저녁에",
+    "count": 1
+   },
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0167"
+ },
+ {
+  "events": [
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": "2일 전",
+    "count": 1
+   },
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0168"
+ },
+ {
+  "events": [
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0169"
+ },
+ {
+  "events": [
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": "어제 저녁",
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0170"
+ },
+ {
+  "events": [
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": "아까",
+    "count": 1
+   },
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": "며칠 전",
+    "count": 1
+   },
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": "저녁에",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0171"
+ },
+ {
+  "events": [],
+  "distractors": [],
+  "id": "S3-0172"
+ },
+ {
+  "events": [
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": "새벽 3시쯤",
+    "count": 2
+   },
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": "저녁에",
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0173"
+ },
+ {
+  "events": [
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "agitation",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0174"
+ },
+ {
+  "events": [
+   {
+    "type": "fall",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": "며칠 전",
+    "count": 2
+   },
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": "며칠 전",
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0175"
+ },
+ {
+  "events": [
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "wandering_exit",
+    "status": "absent",
+    "time_expr": "오늘",
+    "count": 1
+   },
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": "요즘",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0176"
+ },
+ {
+  "events": [
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": "저녁에",
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "약을 잘 챙겨 드심 (정상 복용)"
+  ],
+  "id": "S3-0177"
+ },
+ {
+  "events": [
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": "어제",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0178"
+ },
+ {
+  "events": [
+   {
+    "type": "delusion",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": "오늘",
+    "count": 2
+   },
+   {
+    "type": "anxiety",
+    "status": "absent",
+    "time_expr": "오늘",
+    "count": 1
+   },
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": "오늘",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0179"
+ },
+ {
+  "events": [
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": "그저께",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0180"
+ },
+ {
+  "events": [
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": "어제",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0181"
+ },
+ {
+  "events": [
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": "어젯밤",
+    "count": 3
+   },
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0182"
+ },
+ {
+  "events": [
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   }
+  ],
+  "distractors": [
+   "의사 선생님이 한 말을 옮김"
+  ],
+  "id": "S3-0183"
+ },
+ {
+  "events": [
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   }
+  ],
+  "distractors": [
+   "소변 실수를 하심 (실금)"
+  ],
+  "id": "S3-0184"
+ },
+ {
+  "events": [
+   {
+    "type": "agitation",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0185"
+ },
+ {
+  "events": [
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0186"
+ },
+ {
+  "events": [
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0187"
+ },
+ {
+  "events": [
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0188"
+ },
+ {
+  "events": [
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0189"
+ },
+ {
+  "events": [
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": "어젯밤",
+    "count": 2
+   },
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0190"
+ },
+ {
+  "events": [
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0191"
+ },
+ {
+  "events": [
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": "낮에",
+    "count": 1
+   },
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": "그저께",
+    "count": 3
+   },
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [
+   "의사 선생님이 한 말을 옮김"
+  ],
+  "id": "S3-0192"
+ },
+ {
+  "events": [
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": "오늘",
+    "count": 1
+   },
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0193"
+ },
+ {
+  "events": [
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": "그저께",
+    "count": 1
+   },
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": "어제",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0194"
+ },
+ {
+  "events": [
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": "새벽 3시쯤",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0195"
+ },
+ {
+  "events": [
+   {
+    "type": "delusion",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0196"
+ },
+ {
+  "events": [
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": "요즘",
+    "count": 3
+   },
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": "아까",
+    "count": 1
+   },
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": "어젯밤",
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0197"
+ },
+ {
+  "events": [
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": "며칠 전",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0198"
+ },
+ {
+  "events": [
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": "그저께",
+    "count": 1
+   },
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": "낮에",
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0199"
+ },
+ {
+  "events": [
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": "어젯밤",
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0200"
+ },
+ {
+  "events": [
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": "아까",
+    "count": 3
+   },
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0201"
+ },
+ {
+  "events": [
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0202"
+ },
+ {
+  "events": [
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0203"
+ },
+ {
+  "events": [
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "irritability",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": "새벽 3시쯤",
+    "count": 1
+   },
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "낮에 소파에서 한참 주무심 (낮잠)"
+  ],
+  "id": "S3-0204"
+ },
+ {
+  "events": [
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": "아까",
+    "count": 1
+   },
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": "그저께",
+    "count": 1
+   },
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": "저녁에",
+    "count": 3
+   }
+  ],
+  "distractors": [
+   "약을 잘 챙겨 드심 (정상 복용)"
+  ],
+  "id": "S3-0205"
+ },
+ {
+  "events": [
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": "그저께",
+    "count": 1
+   },
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": "저녁에",
+    "count": 1
+   },
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": "오늘",
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0206"
+ },
+ {
+  "events": [
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": "며칠 전",
+    "count": 1
+   },
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0207"
+ },
+ {
+  "events": [
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": "며칠 전",
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0208"
+ },
+ {
+  "events": [
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": "아까",
+    "count": 2
+   },
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": "그저께",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0209"
+ },
+ {
+  "events": [
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": "낮에",
+    "count": 3
+   },
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0210"
+ },
+ {
+  "events": [
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0211"
+ },
+ {
+  "events": [
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": "어젯밤",
+    "count": 1
+   },
+   {
+    "type": "anxiety",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0212"
+ },
+ {
+  "events": [
+   {
+    "type": "wandering_exit",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": "어제",
+    "count": 1
+   },
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0213"
+ },
+ {
+  "events": [
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [
+   "소변 실수를 하심 (실금)"
+  ],
+  "id": "S3-0214"
+ },
+ {
+  "events": [
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": "어젯밤",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0215"
+ },
+ {
+  "events": [
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": "어제 저녁",
+    "count": 3
+   },
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": "어제",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0216"
+ },
+ {
+  "events": [
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": "며칠 전",
+    "count": 3
+   },
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0217"
+ },
+ {
+  "events": [
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "약을 잘 챙겨 드심 (정상 복용)"
+  ],
+  "id": "S3-0218"
+ },
+ {
+  "events": [
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": "그저께",
+    "count": 1
+   },
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0219"
+ },
+ {
+  "events": [],
+  "distractors": [],
+  "id": "S3-0220"
+ },
+ {
+  "events": [
+   {
+    "type": "anxiety",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": "오늘",
+    "count": 3
+   },
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": "어제",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0221"
+ },
+ {
+  "events": [
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0222"
+ },
+ {
+  "events": [
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": "어젯밤",
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0223"
+ },
+ {
+  "events": [],
+  "distractors": [],
+  "id": "S3-0224"
+ },
+ {
+  "events": [
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "low_mood_apathy",
+    "status": "absent",
+    "time_expr": "어제",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0225"
+ },
+ {
+  "events": [
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0226"
+ },
+ {
+  "events": [
+   {
+    "type": "irritability",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "증상이 있었는지 스스로 묻는 의문문 (예: 밤에 좀 부스럭거리셨나?)"
+  ],
+  "id": "S3-0227"
+ },
+ {
+  "events": [],
+  "distractors": [],
+  "id": "S3-0228"
+ },
+ {
+  "events": [
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": "어젯밤",
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0229"
+ },
+ {
+  "events": [
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "agitation",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0230"
+ },
+ {
+  "events": [
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": "어젯밤",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0231"
+ },
+ {
+  "events": [
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": "오늘",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0232"
+ },
+ {
+  "events": [
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": "새벽에",
+    "count": 1
+   },
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": "며칠 전",
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0233"
+ },
+ {
+  "events": [
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": "며칠 전",
+    "count": 1
+   },
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": "새벽에",
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "증상이 있었는지 스스로 묻는 의문문 (예: 밤에 좀 부스럭거리셨나?)"
+  ],
+  "id": "S3-0234"
+ },
+ {
+  "events": [],
+  "distractors": [],
+  "id": "S3-0235"
+ },
+ {
+  "events": [
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": "요즘",
+    "count": 1
+   },
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0236"
+ },
+ {
+  "events": [
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0237"
+ },
+ {
+  "events": [
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": "2일 전",
+    "count": 1
+   },
+   {
+    "type": "irritability",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": "그저께",
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0238"
+ },
+ {
+  "events": [
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": "낮에",
+    "count": 3
+   },
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0239"
+ },
+ {
+  "events": [],
+  "distractors": [],
+  "id": "S3-0240"
+ },
+ {
+  "events": [
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": "아까",
+    "count": 2
+   },
+   {
+    "type": "night_waking",
+    "status": "absent",
+    "time_expr": "어제 저녁",
+    "count": 1
+   },
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0241"
+ },
+ {
+  "events": [],
+  "distractors": [],
+  "id": "S3-0242"
+ },
+ {
+  "events": [
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [
+   "의사 선생님이 한 말을 옮김"
+  ],
+  "id": "S3-0243"
+ },
+ {
+  "events": [
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": "낮에",
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "의사 선생님이 한 말을 옮김"
+  ],
+  "id": "S3-0244"
+ },
+ {
+  "events": [
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0245"
+ },
+ {
+  "events": [
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": "낮에",
+    "count": 2
+   },
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0246"
+ },
+ {
+  "events": [
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": "새벽 3시쯤",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0247"
+ },
+ {
+  "events": [
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": "2일 전",
+    "count": 1
+   },
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": "낮에",
+    "count": 2
+   },
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "anxiety",
+    "status": "absent",
+    "time_expr": "어제",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0248"
+ },
+ {
+  "events": [
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "같은 질문을 여러 번 되풀이하심 (반복 질문)"
+  ],
+  "id": "S3-0249"
+ },
+ {
+  "events": [
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": "오늘",
+    "count": 2
+   },
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0250"
+ },
+ {
+  "events": [
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0251"
+ },
+ {
+  "events": [
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": "어제 저녁",
+    "count": 2
+   },
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": "낮에",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0252"
+ },
+ {
+  "events": [
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": "어제 저녁",
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0253"
+ },
+ {
+  "events": [
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": "낮에",
+    "count": 1
+   },
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": "새벽 3시쯤",
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0254"
+ },
+ {
+  "events": [
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": "며칠 전",
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0255"
+ },
+ {
+  "events": [],
+  "distractors": [],
+  "id": "S3-0256"
+ },
+ {
+  "events": [
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": "새벽 3시쯤",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0257"
+ },
+ {
+  "events": [
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0258"
+ },
+ {
+  "events": [
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": "어제 저녁",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0259"
+ },
+ {
+  "events": [
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": "오늘",
+    "count": 1
+   },
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "low_mood_apathy",
+    "status": "absent",
+    "time_expr": "오늘",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0260"
+ },
+ {
+  "events": [],
+  "distractors": [],
+  "id": "S3-0261"
+ },
+ {
+  "events": [
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": "오늘",
+    "count": 3
+   },
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0262"
+ },
+ {
+  "events": [
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": "새벽 3시쯤",
+    "count": 1
+   },
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": "요즘",
+    "count": 1
+   },
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "의사 선생님이 한 말을 옮김"
+  ],
+  "id": "S3-0263"
+ },
+ {
+  "events": [
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "delusion",
+    "status": "absent",
+    "time_expr": "그저께",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0264"
+ },
+ {
+  "events": [
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": "며칠 전",
+    "count": 3
+   },
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": "며칠 전",
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "낮에 소파에서 한참 주무심 (낮잠)"
+  ],
+  "id": "S3-0265"
+ },
+ {
+  "events": [
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": "어제 저녁",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0266"
+ },
+ {
+  "events": [
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": "어젯밤",
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0267"
+ },
+ {
+  "events": [
+   {
+    "type": "reduced_intake",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "소변 실수를 하심 (실금)"
+  ],
+  "id": "S3-0268"
+ },
+ {
+  "events": [],
+  "distractors": [],
+  "id": "S3-0269"
+ },
+ {
+  "events": [
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": "어젯밤",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0270"
+ },
+ {
+  "events": [
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": "새벽 3시쯤",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0271"
+ },
+ {
+  "events": [
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": "새벽 3시쯤",
+    "count": 3
+   },
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0272"
+ },
+ {
+  "events": [],
+  "distractors": [],
+  "id": "S3-0273"
+ },
+ {
+  "events": [
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "밥 양만 적음. 줄었다는 말 없이 (예: 저녁은 반 공기 드심)"
+  ],
+  "id": "S3-0274"
+ },
+ {
+  "events": [
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": "새벽 3시쯤",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0275"
+ },
+ {
+  "events": [
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "증상이 있었는지 스스로 묻는 의문문 (예: 밤에 좀 부스럭거리셨나?)"
+  ],
+  "id": "S3-0276"
+ },
+ {
+  "events": [
+   {
+    "type": "hallucination",
+    "status": "absent",
+    "time_expr": "며칠 전",
+    "count": 1
+   },
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": "그저께",
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "보호자 자신이 힘들다는 말 (예: 나도 너무 지친다)"
+  ],
+  "id": "S3-0277"
+ },
+ {
+  "events": [
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": "2일 전",
+    "count": 3
+   },
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": "낮에",
+    "count": 1
+   },
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0278"
+ },
+ {
+  "events": [
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": "요즘",
+    "count": 1
+   },
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "소변 실수를 하심 (실금)"
+  ],
+  "id": "S3-0279"
+ },
+ {
+  "events": [
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0280"
+ },
+ {
+  "events": [
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": "새벽 3시쯤",
+    "count": 1
+   },
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0281"
+ },
+ {
+  "events": [
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": "낮에",
+    "count": 1
+   },
+   {
+    "type": "fall",
+    "status": "absent",
+    "time_expr": "어제 저녁",
+    "count": 1
+   },
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [
+   "오늘 가족이 다녀감"
+  ],
+  "id": "S3-0282"
+ },
+ {
+  "events": [],
+  "distractors": [],
+  "id": "S3-0283"
+ },
+ {
+  "events": [
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0284"
+ },
+ {
+  "events": [
+   {
+    "type": "night_waking",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": "새벽 3시쯤",
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0285"
+ },
+ {
+  "events": [
+   {
+    "type": "fall",
+    "status": "absent",
+    "time_expr": "새벽 3시쯤",
+    "count": 1
+   },
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0286"
+ },
+ {
+  "events": [
+   {
+    "type": "medication_refusal",
+    "status": "absent",
+    "time_expr": "2일 전",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0287"
+ },
+ {
+  "events": [
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": "낮에",
+    "count": 1
+   },
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0288"
+ },
+ {
+  "events": [],
+  "distractors": [],
+  "id": "S3-0289"
+ },
+ {
+  "events": [
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": "아까",
+    "count": 2
+   },
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": "어젯밤",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0290"
+ },
+ {
+  "events": [
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0291"
+ },
+ {
+  "events": [
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0292"
+ },
+ {
+  "events": [
+   {
+    "type": "medication_refusal",
+    "status": "absent",
+    "time_expr": "그저께",
+    "count": 1
+   },
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0293"
+ },
+ {
+  "events": [
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": "요즘",
+    "count": 1
+   },
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": "어제",
+    "count": 3
+   }
+  ],
+  "distractors": [
+   "약을 잘 챙겨 드심 (정상 복용)"
+  ],
+  "id": "S3-0294"
+ },
+ {
+  "events": [
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": "며칠 전",
+    "count": 1
+   },
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": "저녁에",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0295"
+ },
+ {
+  "events": [
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": "새벽 3시쯤",
+    "count": 1
+   },
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": "저녁에",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0296"
+ },
+ {
+  "events": [
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": "어제 저녁",
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0297"
+ },
+ {
+  "events": [
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0298"
+ },
+ {
+  "events": [
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0299"
+ },
+ {
+  "events": [
+   {
+    "type": "wandering_exit",
+    "status": "absent",
+    "time_expr": "저녁에",
+    "count": 1
+   },
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": "오늘",
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0300"
+ },
+ {
+  "events": [
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0301"
+ },
+ {
+  "events": [
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0302"
+ },
+ {
+  "events": [
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": "아까",
+    "count": 1
+   },
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": "아까",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0303"
+ },
+ {
+  "events": [
+   {
+    "type": "night_waking",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0304"
+ },
+ {
+  "events": [
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": "요즘",
+    "count": 1
+   },
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": "저녁에",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0305"
+ },
+ {
+  "events": [
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0306"
+ },
+ {
+  "events": [],
+  "distractors": [],
+  "id": "S3-0307"
+ },
+ {
+  "events": [
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0308"
+ },
+ {
+  "events": [
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0309"
+ },
+ {
+  "events": [
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": "새벽에",
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0310"
+ },
+ {
+  "events": [
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": "저녁에",
+    "count": 2
+   },
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0311"
+ },
+ {
+  "events": [
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0312"
+ },
+ {
+  "events": [
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0313"
+ },
+ {
+  "events": [
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "증상이 있었는지 스스로 묻는 의문문 (예: 밤에 좀 부스럭거리셨나?)"
+  ],
+  "id": "S3-0314"
+ },
+ {
+  "events": [
+   {
+    "type": "night_waking",
+    "status": "absent",
+    "time_expr": "새벽에",
+    "count": 1
+   },
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": "어제",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0315"
+ },
+ {
+  "events": [
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "confusion",
+    "status": "absent",
+    "time_expr": "어젯밤",
+    "count": 1
+   },
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0316"
+ },
+ {
+  "events": [
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": "요즘",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0317"
+ },
+ {
+  "events": [
+   {
+    "type": "confusion",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0318"
+ },
+ {
+  "events": [
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": "어제 저녁",
+    "count": 1
+   },
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0319"
+ },
+ {
+  "events": [
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0320"
+ },
+ {
+  "events": [
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0321"
+ },
+ {
+  "events": [
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": "어제 저녁",
+    "count": 1
+   },
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0322"
+ },
+ {
+  "events": [
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0323"
+ },
+ {
+  "events": [
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": "어제 저녁",
+    "count": 1
+   },
+   {
+    "type": "irritability",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0324"
+ },
+ {
+  "events": [
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0325"
+ },
+ {
+  "events": [
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0326"
+ },
+ {
+  "events": [
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0327"
+ },
+ {
+  "events": [
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [
+   "같은 질문을 여러 번 되풀이하심 (반복 질문)"
+  ],
+  "id": "S3-0328"
+ },
+ {
+  "events": [
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": "어제 저녁",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0329"
+ },
+ {
+  "events": [
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": "2일 전",
+    "count": 2
+   },
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": "그저께",
+    "count": 2
+   },
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0330"
+ },
+ {
+  "events": [
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0331"
+ },
+ {
+  "events": [
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": "어젯밤",
+    "count": 1
+   },
+   {
+    "type": "reduced_intake",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "의사 선생님이 한 말을 옮김"
+  ],
+  "id": "S3-0332"
+ },
+ {
+  "events": [
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": "요즘",
+    "count": 1
+   },
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0333"
+ },
+ {
+  "events": [
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0334"
+ },
+ {
+  "events": [
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [
+   "약을 잘 챙겨 드심 (정상 복용)"
+  ],
+  "id": "S3-0335"
+ },
+ {
+  "events": [
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": "며칠 전",
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0336"
+ },
+ {
+  "events": [
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": "오늘",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0337"
+ },
+ {
+  "events": [],
+  "distractors": [],
+  "id": "S3-0338"
+ },
+ {
+  "events": [
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "low_mood_apathy",
+    "status": "absent",
+    "time_expr": "어제 저녁",
+    "count": 1
+   },
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "소변 실수를 하심 (실금)"
+  ],
+  "id": "S3-0339"
+ },
+ {
+  "events": [
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": "그저께",
+    "count": 2
+   },
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0340"
+ },
+ {
+  "events": [
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   }
+  ],
+  "distractors": [
+   "같은 질문을 여러 번 되풀이하심 (반복 질문)"
+  ],
+  "id": "S3-0341"
+ },
+ {
+  "events": [
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": "어젯밤",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0342"
+ },
+ {
+  "events": [
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": "어젯밤",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0343"
+ },
+ {
+  "events": [
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0344"
+ },
+ {
+  "events": [
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0345"
+ },
+ {
+  "events": [
+   {
+    "type": "reduced_intake",
+    "status": "absent",
+    "time_expr": "새벽에",
+    "count": 1
+   },
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": "아까",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0346"
+ },
+ {
+  "events": [
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0347"
+ },
+ {
+  "events": [
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0348"
+ },
+ {
+  "events": [
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0349"
+ },
+ {
+  "events": [
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "hallucination",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0350"
+ },
+ {
+  "events": [
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0351"
+ },
+ {
+  "events": [
+   {
+    "type": "confusion",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0352"
+ },
+ {
+  "events": [
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0353"
+ },
+ {
+  "events": [],
+  "distractors": [
+   "소변 실수를 하심 (실금)"
+  ],
+  "id": "S3-0354"
+ },
+ {
+  "events": [],
+  "distractors": [
+   "오늘 가족이 다녀감"
+  ],
+  "id": "S3-0355"
+ },
+ {
+  "events": [
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0356"
+ },
+ {
+  "events": [
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": "요즘",
+    "count": 1
+   },
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": "며칠 전",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0357"
+ },
+ {
+  "events": [
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": "어제 저녁",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0358"
+ },
+ {
+  "events": [
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0359"
+ },
+ {
+  "events": [
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": "요즘",
+    "count": 1
+   },
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0360"
+ },
+ {
+  "events": [
+   {
+    "type": "anxiety",
+    "status": "absent",
+    "time_expr": "어제 저녁",
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "의사 선생님이 한 말을 옮김"
+  ],
+  "id": "S3-0361"
+ },
+ {
+  "events": [
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": "새벽에",
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0362"
+ },
+ {
+  "events": [
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": "새벽에",
+    "count": 2
+   },
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0363"
+ },
+ {
+  "events": [
+   {
+    "type": "wandering_exit",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": "낮에",
+    "count": 3
+   },
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0364"
+ },
+ {
+  "events": [],
+  "distractors": [
+   "의사 선생님이 한 말을 옮김"
+  ],
+  "id": "S3-0365"
+ },
+ {
+  "events": [
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0366"
+ },
+ {
+  "events": [
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": "요즘",
+    "count": 2
+   },
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0367"
+ },
+ {
+  "events": [],
+  "distractors": [
+   "낮에 소파에서 한참 주무심 (낮잠)"
+  ],
+  "id": "S3-0368"
+ },
+ {
+  "events": [],
+  "distractors": [
+   "같은 질문을 여러 번 되풀이하심 (반복 질문)"
+  ],
+  "id": "S3-0369"
+ },
+ {
+  "events": [
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0370"
+ },
+ {
+  "events": [],
+  "distractors": [],
+  "id": "S3-0371"
+ },
+ {
+  "events": [
+   {
+    "type": "confusion",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0372"
+ },
+ {
+  "events": [
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": "저녁에",
+    "count": 1
+   },
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0373"
+ },
+ {
+  "events": [
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": "새벽 3시쯤",
+    "count": 2
+   },
+   {
+    "type": "delusion",
+    "status": "absent",
+    "time_expr": "아까",
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "예전에 잘하시던 일을 떠올림 (오래된 과거 회상)"
+  ],
+  "id": "S3-0374"
+ },
+ {
+  "events": [
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": "오늘",
+    "count": 3
+   },
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   }
+  ],
+  "distractors": [
+   "낮에 소파에서 한참 주무심 (낮잠)"
+  ],
+  "id": "S3-0375"
+ },
+ {
+  "events": [
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": "며칠 전",
+    "count": 1
+   },
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0376"
+ },
+ {
+  "events": [
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0377"
+ },
+ {
+  "events": [
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": "낮에",
+    "count": 3
+   },
+   {
+    "type": "wandering_exit",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0378"
+ },
+ {
+  "events": [
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": "어제 저녁",
+    "count": 1
+   },
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0379"
+ },
+ {
+  "events": [
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": "어제",
+    "count": 2
+   }
+  ],
+  "distractors": [
+   "증상이 있었는지 스스로 묻는 의문문 (예: 밤에 좀 부스럭거리셨나?)"
+  ],
+  "id": "S3-0380"
+ },
+ {
+  "events": [
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": "어젯밤",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0381"
+ },
+ {
+  "events": [
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0382"
+ },
+ {
+  "events": [
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": "어제",
+    "count": 3
+   },
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": "저녁에",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0383"
+ },
+ {
+  "events": [
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": "새벽 3시쯤",
+    "count": 1
+   },
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": "낮에",
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "의사 선생님이 한 말을 옮김"
+  ],
+  "id": "S3-0384"
+ },
+ {
+  "events": [
+   {
+    "type": "reduced_intake",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0385"
+ },
+ {
+  "events": [
+   {
+    "type": "night_waking",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "confusion",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0386"
+ },
+ {
+  "events": [
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0387"
+ },
+ {
+  "events": [
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "low_mood_apathy",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0388"
+ },
+ {
+  "events": [
+   {
+    "type": "low_mood_apathy",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0389"
+ },
+ {
+  "events": [
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": "그저께",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0390"
+ },
+ {
+  "events": [
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": "저녁에",
+    "count": 2
+   },
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0391"
+ },
+ {
+  "events": [
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [
+   "낮에 소파에서 한참 주무심 (낮잠)"
+  ],
+  "id": "S3-0392"
+ },
+ {
+  "events": [
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": "2일 전",
+    "count": 2
+   },
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": "2일 전",
+    "count": 2
+   },
+   {
+    "type": "night_waking",
+    "status": "absent",
+    "time_expr": "요즘",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0393"
+ },
+ {
+  "events": [
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0394"
+ },
+ {
+  "events": [
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0395"
+ },
+ {
+  "events": [
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   }
+  ],
+  "distractors": [
+   "약을 잘 챙겨 드심 (정상 복용)"
+  ],
+  "id": "S3-0396"
+ },
+ {
+  "events": [],
+  "distractors": [],
+  "id": "S3-0397"
+ },
+ {
+  "events": [
+   {
+    "type": "wandering_exit",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "예전에 잘하시던 일을 떠올림 (오래된 과거 회상)"
+  ],
+  "id": "S3-0398"
+ },
+ {
+  "events": [
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "anxiety",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "오늘 가족이 다녀감"
+  ],
+  "id": "S3-0399"
+ },
+ {
+  "events": [
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "anxiety",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0400"
+ },
+ {
+  "events": [
+   {
+    "type": "wandering_exit",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": "새벽 3시쯤",
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0401"
+ },
+ {
+  "events": [
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0402"
+ },
+ {
+  "events": [
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0403"
+ },
+ {
+  "events": [
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0404"
+ },
+ {
+  "events": [
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": "낮에",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0405"
+ },
+ {
+  "events": [
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": "낮에",
+    "count": 1
+   },
+   {
+    "type": "low_mood_apathy",
+    "status": "absent",
+    "time_expr": "2일 전",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0406"
+ },
+ {
+  "events": [
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "밥 양만 적음. 줄었다는 말 없이 (예: 저녁은 반 공기 드심)"
+  ],
+  "id": "S3-0407"
+ },
+ {
+  "events": [
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0408"
+ },
+ {
+  "events": [
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "delusion",
+    "status": "absent",
+    "time_expr": "오늘",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0409"
+ },
+ {
+  "events": [
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0410"
+ },
+ {
+  "events": [
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   }
+  ],
+  "distractors": [
+   "보호자 자신이 힘들다는 말 (예: 나도 너무 지친다)"
+  ],
+  "id": "S3-0411"
+ },
+ {
+  "events": [
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   }
+  ],
+  "distractors": [
+   "보호자 자신이 힘들다는 말 (예: 나도 너무 지친다)"
+  ],
+  "id": "S3-0412"
+ },
+ {
+  "events": [
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": "오늘",
+    "count": 1
+   },
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": "그저께",
+    "count": 1
+   },
+   {
+    "type": "night_waking",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0413"
+ },
+ {
+  "events": [
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": "어젯밤",
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0414"
+ },
+ {
+  "events": [
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": "요즘",
+    "count": 3
+   },
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": "오늘",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0415"
+ },
+ {
+  "events": [
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": "어제 저녁",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0416"
+ },
+ {
+  "events": [
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": "어젯밤",
+    "count": 2
+   },
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0417"
+ },
+ {
+  "events": [],
+  "distractors": [],
+  "id": "S3-0418"
+ },
+ {
+  "events": [],
+  "distractors": [],
+  "id": "S3-0419"
+ },
+ {
+  "events": [
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": "오늘",
+    "count": 2
+   },
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0420"
+ },
+ {
+  "events": [
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": "새벽 3시쯤",
+    "count": 3
+   },
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": "그저께",
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "의사 선생님이 한 말을 옮김"
+  ],
+  "id": "S3-0421"
+ },
+ {
+  "events": [
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": "새벽 3시쯤",
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "증상이 있었는지 스스로 묻는 의문문 (예: 밤에 좀 부스럭거리셨나?)"
+  ],
+  "id": "S3-0422"
+ },
+ {
+  "events": [
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": "오늘",
+    "count": 2
+   },
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": "어제 저녁",
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "오늘 가족이 다녀감"
+  ],
+  "id": "S3-0423"
+ },
+ {
+  "events": [
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": "아까",
+    "count": 1
+   },
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": "오늘",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0424"
+ },
+ {
+  "events": [
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": "새벽 3시쯤",
+    "count": 3
+   },
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0425"
+ },
+ {
+  "events": [
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0426"
+ },
+ {
+  "events": [
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": "어젯밤",
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0427"
+ },
+ {
+  "events": [
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "소변 실수를 하심 (실금)"
+  ],
+  "id": "S3-0428"
+ },
+ {
+  "events": [
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": "아까",
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0429"
+ },
+ {
+  "events": [
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": "새벽에",
+    "count": 3
+   }
+  ],
+  "distractors": [
+   "약을 잘 챙겨 드심 (정상 복용)"
+  ],
+  "id": "S3-0430"
+ },
+ {
+  "events": [
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0431"
+ },
+ {
+  "events": [
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0432"
+ },
+ {
+  "events": [
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0433"
+ },
+ {
+  "events": [
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": "며칠 전",
+    "count": 3
+   },
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": "어제",
+    "count": 1
+   },
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [
+   "낮에 소파에서 한참 주무심 (낮잠)"
+  ],
+  "id": "S3-0434"
+ },
+ {
+  "events": [
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0435"
+ },
+ {
+  "events": [
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": "그저께",
+    "count": 1
+   },
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0436"
+ },
+ {
+  "events": [
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": "아까",
+    "count": 2
+   },
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": "어제 저녁",
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0437"
+ },
+ {
+  "events": [
+   {
+    "type": "fall",
+    "status": "absent",
+    "time_expr": "요즘",
+    "count": 1
+   },
+   {
+    "type": "medication_refusal",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "hallucination",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0438"
+ },
+ {
+  "events": [
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": "낮에",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0439"
+ },
+ {
+  "events": [
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": "어제",
+    "count": 1
+   },
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": "낮에",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0440"
+ },
+ {
+  "events": [],
+  "distractors": [],
+  "id": "S3-0441"
+ },
+ {
+  "events": [
+   {
+    "type": "irritability",
+    "status": "absent",
+    "time_expr": "2일 전",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0442"
+ },
+ {
+  "events": [
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0443"
+ },
+ {
+  "events": [
+   {
+    "type": "hallucination",
+    "status": "absent",
+    "time_expr": "낮에",
+    "count": 1
+   },
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": "아까",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0444"
+ },
+ {
+  "events": [
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0445"
+ },
+ {
+  "events": [
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": "저녁에",
+    "count": 1
+   },
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0446"
+ },
+ {
+  "events": [
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": "어젯밤",
+    "count": 3
+   },
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": "2일 전",
+    "count": 1
+   },
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0447"
+ },
+ {
+  "events": [
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "delusion",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0448"
+ },
+ {
+  "events": [
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "irritability",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0449"
+ },
+ {
+  "events": [
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "같은 질문을 여러 번 되풀이하심 (반복 질문)"
+  ],
+  "id": "S3-0450"
+ },
+ {
+  "events": [
+   {
+    "type": "delusion",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0451"
+ },
+ {
+  "events": [
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": "요즘",
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "소변 실수를 하심 (실금)"
+  ],
+  "id": "S3-0452"
+ },
+ {
+  "events": [
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": "아까",
+    "count": 3
+   },
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": "어제 저녁",
+    "count": 3
+   }
+  ],
+  "distractors": [
+   "밥 양만 적음. 줄었다는 말 없이 (예: 저녁은 반 공기 드심)"
+  ],
+  "id": "S3-0453"
+ },
+ {
+  "events": [
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "같은 질문을 여러 번 되풀이하심 (반복 질문)"
+  ],
+  "id": "S3-0454"
+ },
+ {
+  "events": [
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0455"
+ },
+ {
+  "events": [
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "밥 양만 적음. 줄었다는 말 없이 (예: 저녁은 반 공기 드심)"
+  ],
+  "id": "S3-0456"
+ },
+ {
+  "events": [
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0457"
+ },
+ {
+  "events": [
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "약을 잘 챙겨 드심 (정상 복용)"
+  ],
+  "id": "S3-0458"
+ },
+ {
+  "events": [],
+  "distractors": [
+   "소변 실수를 하심 (실금)"
+  ],
+  "id": "S3-0459"
+ },
+ {
+  "events": [
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": "며칠 전",
+    "count": 1
+   },
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0460"
+ },
+ {
+  "events": [
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": "아까",
+    "count": 3
+   }
+  ],
+  "distractors": [
+   "낮에 소파에서 한참 주무심 (낮잠)"
+  ],
+  "id": "S3-0461"
+ },
+ {
+  "events": [
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": "2일 전",
+    "count": 1
+   },
+   {
+    "type": "confusion",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0462"
+ },
+ {
+  "events": [],
+  "distractors": [
+   "밥 양만 적음. 줄었다는 말 없이 (예: 저녁은 반 공기 드심)"
+  ],
+  "id": "S3-0463"
+ },
+ {
+  "events": [
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": "오늘",
+    "count": 3
+   },
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0464"
+ },
+ {
+  "events": [
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": "새벽 3시쯤",
+    "count": 2
+   }
+  ],
+  "distractors": [
+   "예전에 잘하시던 일을 떠올림 (오래된 과거 회상)"
+  ],
+  "id": "S3-0465"
+ },
+ {
+  "events": [
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0466"
+ },
+ {
+  "events": [
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": "2일 전",
+    "count": 1
+   },
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "증상이 있었는지 스스로 묻는 의문문 (예: 밤에 좀 부스럭거리셨나?)"
+  ],
+  "id": "S3-0467"
+ },
+ {
+  "events": [
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0468"
+ },
+ {
+  "events": [
+   {
+    "type": "night_waking",
+    "status": "absent",
+    "time_expr": "어젯밤",
+    "count": 1
+   },
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": "요즘",
+    "count": 1
+   },
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0469"
+ },
+ {
+  "events": [
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": "어제",
+    "count": 2
+   },
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": "어젯밤",
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "밥 양만 적음. 줄었다는 말 없이 (예: 저녁은 반 공기 드심)"
+  ],
+  "id": "S3-0470"
+ },
+ {
+  "events": [
+   {
+    "type": "confusion",
+    "status": "absent",
+    "time_expr": "저녁에",
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "낮에 소파에서 한참 주무심 (낮잠)"
+  ],
+  "id": "S3-0471"
+ },
+ {
+  "events": [
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": "저녁에",
+    "count": 1
+   },
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": "어제 저녁",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0472"
+ },
+ {
+  "events": [
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0473"
+ },
+ {
+  "events": [
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0474"
+ },
+ {
+  "events": [
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": "2일 전",
+    "count": 1
+   },
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0475"
+ },
+ {
+  "events": [
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": "어제",
+    "count": 3
+   },
+   {
+    "type": "irritability",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0476"
+ },
+ {
+  "events": [
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": "새벽 3시쯤",
+    "count": 2
+   },
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": "아까",
+    "count": 1
+   },
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "예전에 잘하시던 일을 떠올림 (오래된 과거 회상)"
+  ],
+  "id": "S3-0477"
+ },
+ {
+  "events": [
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "irritability",
+    "status": "absent",
+    "time_expr": "새벽에",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0478"
+ },
+ {
+  "events": [
+   {
+    "type": "anxiety",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0479"
+ },
+ {
+  "events": [],
+  "distractors": [
+   "보호자 자신이 힘들다는 말 (예: 나도 너무 지친다)"
+  ],
+  "id": "S3-0480"
+ },
+ {
+  "events": [
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [
+   "오늘 가족이 다녀감"
+  ],
+  "id": "S3-0481"
+ },
+ {
+  "events": [
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": "그저께",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0482"
+ },
+ {
+  "events": [
+   {
+    "type": "reduced_intake",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": "어제 저녁",
+    "count": 1
+   },
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0483"
+ },
+ {
+  "events": [
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "irritability",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0484"
+ },
+ {
+  "events": [
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": "2일 전",
+    "count": 3
+   },
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0485"
+ },
+ {
+  "events": [
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "anxiety",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0486"
+ },
+ {
+  "events": [],
+  "distractors": [
+   "약을 잘 챙겨 드심 (정상 복용)"
+  ],
+  "id": "S3-0487"
+ },
+ {
+  "events": [
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0488"
+ },
+ {
+  "events": [
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "예전에 잘하시던 일을 떠올림 (오래된 과거 회상)"
+  ],
+  "id": "S3-0489"
+ },
+ {
+  "events": [
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": "어제",
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "같은 질문을 여러 번 되풀이하심 (반복 질문)"
+  ],
+  "id": "S3-0490"
+ },
+ {
+  "events": [
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": "저녁에",
+    "count": 1
+   },
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": "어젯밤",
+    "count": 1
+   },
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0491"
+ },
+ {
+  "events": [
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   }
+  ],
+  "distractors": [
+   "예전에 잘하시던 일을 떠올림 (오래된 과거 회상)"
+  ],
+  "id": "S3-0492"
+ },
+ {
+  "events": [
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": "요즘",
+    "count": 1
+   },
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": "어젯밤",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0493"
+ },
+ {
+  "events": [
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": "새벽 3시쯤",
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0494"
+ },
+ {
+  "events": [
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": "저녁에",
+    "count": 1
+   },
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0495"
+ },
+ {
+  "events": [
+   {
+    "type": "hallucination",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0496"
+ },
+ {
+  "events": [
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0497"
+ },
+ {
+  "events": [],
+  "distractors": [],
+  "id": "S3-0498"
+ },
+ {
+  "events": [
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": "요즘",
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0499"
+ },
+ {
+  "events": [
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": "어제",
+    "count": 2
+   },
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": "그저께",
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0500"
+ },
+ {
+  "events": [
+   {
+    "type": "fall",
+    "status": "absent",
+    "time_expr": "어제",
+    "count": 1
+   },
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": "아까",
+    "count": 2
+   },
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": "며칠 전",
+    "count": 2
+   }
+  ],
+  "distractors": [
+   "의사 선생님이 한 말을 옮김"
+  ],
+  "id": "S3-0501"
+ },
+ {
+  "events": [],
+  "distractors": [],
+  "id": "S3-0502"
+ },
+ {
+  "events": [
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": "며칠 전",
+    "count": 1
+   },
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0503"
+ },
+ {
+  "events": [
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0504"
+ },
+ {
+  "events": [
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": "저녁에",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0505"
+ },
+ {
+  "events": [
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": "낮에",
+    "count": 1
+   },
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0506"
+ },
+ {
+  "events": [
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": "며칠 전",
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "예전에 잘하시던 일을 떠올림 (오래된 과거 회상)"
+  ],
+  "id": "S3-0507"
+ },
+ {
+  "events": [
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": "그저께",
+    "count": 3
+   },
+   {
+    "type": "fall",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0508"
+ },
+ {
+  "events": [
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0509"
+ },
+ {
+  "events": [],
+  "distractors": [
+   "의사 선생님이 한 말을 옮김"
+  ],
+  "id": "S3-0510"
+ },
+ {
+  "events": [
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": "오늘",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0511"
+ },
+ {
+  "events": [
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": "그저께",
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0512"
+ },
+ {
+  "events": [
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": "새벽 3시쯤",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0513"
+ },
+ {
+  "events": [],
+  "distractors": [],
+  "id": "S3-0514"
+ },
+ {
+  "events": [
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "오늘 가족이 다녀감"
+  ],
+  "id": "S3-0515"
+ },
+ {
+  "events": [
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "confusion",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0516"
+ },
+ {
+  "events": [
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0517"
+ },
+ {
+  "events": [
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0518"
+ },
+ {
+  "events": [
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0519"
+ },
+ {
+  "events": [
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "night_waking",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0520"
+ },
+ {
+  "events": [
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0521"
+ },
+ {
+  "events": [
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": "2일 전",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0522"
+ },
+ {
+  "events": [
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": "며칠 전",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0523"
+ },
+ {
+  "events": [
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": "새벽 3시쯤",
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0524"
+ },
+ {
+  "events": [
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0525"
+ },
+ {
+  "events": [
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0526"
+ },
+ {
+  "events": [
+   {
+    "type": "hallucination",
+    "status": "absent",
+    "time_expr": "낮에",
+    "count": 1
+   },
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0527"
+ },
+ {
+  "events": [
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": "어제",
+    "count": 2
+   },
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0528"
+ },
+ {
+  "events": [
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": "아까",
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0529"
+ },
+ {
+  "events": [],
+  "distractors": [
+   "밥 양만 적음. 줄었다는 말 없이 (예: 저녁은 반 공기 드심)"
+  ],
+  "id": "S3-0530"
+ },
+ {
+  "events": [
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": "저녁에",
+    "count": 1
+   },
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": "새벽 3시쯤",
+    "count": 2
+   },
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": "새벽 3시쯤",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0531"
+ },
+ {
+  "events": [
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": "낮에",
+    "count": 1
+   },
+   {
+    "type": "fall",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "confusion",
+    "status": "absent",
+    "time_expr": "요즘",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0532"
+ },
+ {
+  "events": [
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": "새벽에",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0533"
+ },
+ {
+  "events": [
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": "새벽 3시쯤",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0534"
+ },
+ {
+  "events": [
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0535"
+ },
+ {
+  "events": [
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": "낮에",
+    "count": 1
+   },
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [
+   "소변 실수를 하심 (실금)"
+  ],
+  "id": "S3-0536"
+ },
+ {
+  "events": [
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": "아까",
+    "count": 1
+   },
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "보호자 자신이 힘들다는 말 (예: 나도 너무 지친다)"
+  ],
+  "id": "S3-0537"
+ },
+ {
+  "events": [
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0538"
+ },
+ {
+  "events": [
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": "어제",
+    "count": 1
+   },
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": "저녁에",
+    "count": 1
+   },
+   {
+    "type": "low_mood_apathy",
+    "status": "absent",
+    "time_expr": "어젯밤",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0539"
+ },
+ {
+  "events": [
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0540"
+ },
+ {
+  "events": [
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0541"
+ },
+ {
+  "events": [
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": "요즘",
+    "count": 1
+   },
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": "새벽 3시쯤",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0542"
+ },
+ {
+  "events": [
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": "그저께",
+    "count": 2
+   },
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "약을 잘 챙겨 드심 (정상 복용)"
+  ],
+  "id": "S3-0543"
+ },
+ {
+  "events": [
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0544"
+ },
+ {
+  "events": [
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": "새벽 3시쯤",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0545"
+ },
+ {
+  "events": [
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": "어제 저녁",
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0546"
+ },
+ {
+  "events": [
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [
+   "오늘 가족이 다녀감"
+  ],
+  "id": "S3-0547"
+ },
+ {
+  "events": [],
+  "distractors": [],
+  "id": "S3-0548"
+ },
+ {
+  "events": [
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0549"
+ },
+ {
+  "events": [
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": "아까",
+    "count": 1
+   },
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": "며칠 전",
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0550"
+ },
+ {
+  "events": [],
+  "distractors": [],
+  "id": "S3-0551"
+ },
+ {
+  "events": [
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0552"
+ },
+ {
+  "events": [
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": "새벽 3시쯤",
+    "count": 1
+   },
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": "2일 전",
+    "count": 2
+   }
+  ],
+  "distractors": [
+   "소변 실수를 하심 (실금)"
+  ],
+  "id": "S3-0553"
+ },
+ {
+  "events": [
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": "요즘",
+    "count": 1
+   },
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": "새벽 3시쯤",
+    "count": 1
+   },
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": "요즘",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0554"
+ },
+ {
+  "events": [
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": "그저께",
+    "count": 3
+   },
+   {
+    "type": "fall",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "소변 실수를 하심 (실금)"
+  ],
+  "id": "S3-0555"
+ },
+ {
+  "events": [
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "예전에 잘하시던 일을 떠올림 (오래된 과거 회상)"
+  ],
+  "id": "S3-0556"
+ },
+ {
+  "events": [
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": "어제 저녁",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0557"
+ },
+ {
+  "events": [
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   }
+  ],
+  "distractors": [
+   "약을 잘 챙겨 드심 (정상 복용)"
+  ],
+  "id": "S3-0558"
+ },
+ {
+  "events": [
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": "어제 저녁",
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0559"
+ },
+ {
+  "events": [
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": "어제 저녁",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0560"
+ },
+ {
+  "events": [
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0561"
+ },
+ {
+  "events": [
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": "어젯밤",
+    "count": 1
+   },
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [
+   "오늘 가족이 다녀감"
+  ],
+  "id": "S3-0562"
+ },
+ {
+  "events": [],
+  "distractors": [
+   "같은 질문을 여러 번 되풀이하심 (반복 질문)"
+  ],
+  "id": "S3-0563"
+ },
+ {
+  "events": [
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0564"
+ },
+ {
+  "events": [
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": "새벽 3시쯤",
+    "count": 3
+   },
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0565"
+ },
+ {
+  "events": [
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "delusion",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0566"
+ },
+ {
+  "events": [
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": "새벽 3시쯤",
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0567"
+ },
+ {
+  "events": [
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": "2일 전",
+    "count": 3
+   },
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": "어제",
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "의사 선생님이 한 말을 옮김"
+  ],
+  "id": "S3-0568"
+ },
+ {
+  "events": [
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [
+   "증상이 있었는지 스스로 묻는 의문문 (예: 밤에 좀 부스럭거리셨나?)"
+  ],
+  "id": "S3-0569"
+ },
+ {
+  "events": [],
+  "distractors": [],
+  "id": "S3-0570"
+ },
+ {
+  "events": [
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "wandering_exit",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0571"
+ },
+ {
+  "events": [
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0572"
+ },
+ {
+  "events": [
+   {
+    "type": "hallucination",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": "저녁에",
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0573"
+ },
+ {
+  "events": [
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   },
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": "요즘",
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "낮에 소파에서 한참 주무심 (낮잠)"
+  ],
+  "id": "S3-0574"
+ },
+ {
+  "events": [
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": "2일 전",
+    "count": 2
+   },
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": "저녁에",
+    "count": 1
+   },
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0575"
+ },
+ {
+  "events": [
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": "어제 저녁",
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0576"
+ },
+ {
+  "events": [
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0577"
+ },
+ {
+  "events": [
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": "그저께",
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "소변 실수를 하심 (실금)"
+  ],
+  "id": "S3-0578"
+ },
+ {
+  "events": [
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0579"
+ },
+ {
+  "events": [
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "소변 실수를 하심 (실금)"
+  ],
+  "id": "S3-0580"
+ },
+ {
+  "events": [
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0581"
+ },
+ {
+  "events": [
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": "어제",
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0582"
+ },
+ {
+  "events": [
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": "새벽에",
+    "count": 1
+   },
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": "어젯밤",
+    "count": 2
+   }
+  ],
+  "distractors": [
+   "증상이 있었는지 스스로 묻는 의문문 (예: 밤에 좀 부스럭거리셨나?)"
+  ],
+  "id": "S3-0583"
+ },
+ {
+  "events": [
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "의사 선생님이 한 말을 옮김"
+  ],
+  "id": "S3-0584"
+ },
+ {
+  "events": [
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   }
+  ],
+  "distractors": [
+   "증상이 있었는지 스스로 묻는 의문문 (예: 밤에 좀 부스럭거리셨나?)"
+  ],
+  "id": "S3-0585"
+ },
+ {
+  "events": [
+   {
+    "type": "irritability",
+    "status": "absent",
+    "time_expr": "낮에",
+    "count": 1
+   },
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0586"
+ },
+ {
+  "events": [
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0587"
+ },
+ {
+  "events": [
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0588"
+ },
+ {
+  "events": [
+   {
+    "type": "reduced_intake",
+    "status": "present",
+    "time_expr": "새벽 3시쯤",
+    "count": 1
+   },
+   {
+    "type": "irritability",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [
+   "약을 잘 챙겨 드심 (정상 복용)"
+  ],
+  "id": "S3-0589"
+ },
+ {
+  "events": [
+   {
+    "type": "irritability",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   }
+  ],
+  "distractors": [
+   "같은 질문을 여러 번 되풀이하심 (반복 질문)"
+  ],
+  "id": "S3-0590"
+ },
+ {
+  "events": [
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0591"
+ },
+ {
+  "events": [
+   {
+    "type": "medication_refusal",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0592"
+ },
+ {
+  "events": [
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   },
+   {
+    "type": "low_mood_apathy",
+    "status": "present",
+    "time_expr": "새벽 3시쯤",
+    "count": 1
+   },
+   {
+    "type": "hallucination",
+    "status": "present",
+    "time_expr": "새벽 3시쯤",
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0593"
+ },
+ {
+  "events": [
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "fall",
+    "status": "present",
+    "time_expr": "낮에",
+    "count": 1
+   },
+   {
+    "type": "agitation",
+    "status": "present",
+    "time_expr": "새벽에",
+    "count": 3
+   },
+   {
+    "type": "delusion",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0594"
+ },
+ {
+  "events": [],
+  "distractors": [],
+  "id": "S3-0595"
+ },
+ {
+  "events": [],
+  "distractors": [],
+  "id": "S3-0596"
+ },
+ {
+  "events": [
+   {
+    "type": "confusion",
+    "status": "present",
+    "time_expr": "새벽 3시쯤",
+    "count": 1
+   },
+   {
+    "type": "irritability",
+    "status": "absent",
+    "time_expr": null,
+    "count": 1
+   },
+   {
+    "type": "anxiety",
+    "status": "present",
+    "time_expr": null,
+    "count": 2
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0597"
+ },
+ {
+  "events": [
+   {
+    "type": "night_waking",
+    "status": "present",
+    "time_expr": "저녁에",
+    "count": 2
+   },
+   {
+    "type": "medication_refusal",
+    "status": "present",
+    "time_expr": null,
+    "count": 1
+   }
+  ],
+  "distractors": [],
+  "id": "S3-0598"
+ },
+ {
+  "events": [
+   {
+    "type": "wandering_exit",
+    "status": "present",
+    "time_expr": null,
+    "count": 3
+   }
+  ],
+  "distractors": [
+   "같은 질문을 여러 번 되풀이하심 (반복 질문)"
+  ],
+  "id": "S3-0599"
+ }
+]

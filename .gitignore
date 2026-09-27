@@ -216,3 +216,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# 데이터 생성 중간 파일 (커밋하지 않음)
+ml/data_gen/raw/
+ml/data_gen/batches/
+.env

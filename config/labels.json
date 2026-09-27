@@ -1,0 +1,41 @@
+{
+  "type": {
+    "night_waking": "야간 각성",
+    "wandering_exit": "배회·출입문 시도",
+    "agitation": "초조·공격",
+    "irritability": "과민·짜증",
+    "anxiety": "불안",
+    "low_mood_apathy": "우울·무기력",
+    "delusion": "망상",
+    "hallucination": "환각",
+    "reduced_intake": "식사량 감소",
+    "medication_refusal": "복약 거부",
+    "confusion": "사람·장소 혼동",
+    "fall": "낙상"
+  },
+  "status": {
+    "present": "있었음",
+    "absent": "없었음"
+  },
+  "memo_status": {
+    "pending": "확인 대기",
+    "confirmed": "확인 완료",
+    "failed": "정리 실패"
+  },
+  "change_type": {
+    "start": "시작",
+    "increase": "증량",
+    "decrease": "감량",
+    "stop": "중단"
+  },
+  "mark": {
+    "increase": "증가",
+    "new": "새로 나타남",
+    "not_comparable": "비교 불가",
+    "insufficient": "기록 부족"
+  },
+  "source": {
+    "model": "모델",
+    "manual": "직접 추가"
+  }
+}
