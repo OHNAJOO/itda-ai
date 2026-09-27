@@ -1,26 +1,18 @@
-잇다 데이터 키트 v1.1 (2026-09-27 21시)
+잇다 데이터 키트 v1.2 (2026-09-27 23시)
+레포: https://github.com/OHNAJOO/itda-ai  (이 파일들은 레포에 그대로 들어 있음)
+따라 할 문서: 잇다_상세개발가이드_v1.2_0927 의 1-5 (Ubuntu/WSL 기준)
 
-v1.0과 달라진 점
-- ml/data_gen/plans/ 폴더에 계획 파일 6개를 넣어 둠 (S1~S4, W_val, W_test)
-- 상세개발가이드 1-5 (3)의 3번 "계획 파일을 plans/에 넣음"은 이미 되어 있으므로 건너뜀
-- make_plans.py는 다시 돌리지 않음 (돌려도 같은 파일이 나오지만 필요 없음)
+v1.2에서 달라진 점
+- ml/data_gen/add_answer.py 추가: 채팅 방법에서 Claude 답을 저장하고, 틀린 건을 지움(--drop)
+- ml/data_gen/check.py: 다시 돌려도 눈 검사 판정을 유지함. --review 로 눈 검사 건수를 정함(W_test는 300)
 
 용어
 - 계획 파일(S1~S4.json) = 메모마다 어떤 증상을 담을지 적어 둔 정답 목록. 문체 파일이 아님
-- 문체(T01~T10) = personas.yaml에 있음. 이 중 2개를 골라 --personas에 적음
-- V01, E01, E02는 김우진 전용(검증·평가). 고르지 않음
+- 문체(T01~T10) = personas.yaml에 있음. V01, E01, E02는 김우진 전용(검증·평가)
 
-누가 무엇을 (기본 배정, 회의에서 바꾸지 않았다면 그대로)
+기본 배정
 - 변은아  --slot S1 --personas T01,T07
 - 최태순  --slot S2 --personas T02,T04
 - 이주영  --slot S3 --personas T03,T10
 - 조성률  --slot S4 --personas T05,T06
 - 김우진  --slot W_val --personas V01 / --slot W_test --personas E01,E02
-
-API 키가 없으면 (채팅 방법 B)
-  pip install pyyaml
-  python ml/data_gen/make_batches.py --slot S1 --personas T01,T07
-  -> ml/data_gen/batches/S1/batch_01.txt 부터 Claude 새 대화에 붙여 넣음
-  (S1, T01,T07 부분은 자기 것으로 바꿈. 명령은 키트 맨 위 폴더에서 실행)
-
-이후 순서는 상세개발가이드 1-5 (5)~(8)을 그대로 따름

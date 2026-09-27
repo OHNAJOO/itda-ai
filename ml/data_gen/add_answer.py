@@ -3,6 +3,7 @@
 - {로 시작하는 JSON 줄만 골라 붙임. ``` 표시나 설명 문장은 자동으로 버림
 - 이미 붙인 계획 번호와 다른 사람 슬롯 번호는 건너뜀 (같은 답을 두 번 붙여도 괜찮음)
 - 다 붙이면 answer.txt를 비움. 다음 묶음 답을 바로 붙여 넣으면 됨
+눈 검사에서 틀린 건 지우기: python ml/data_gen/add_answer.py --slot S1 --drop S1-0073,S1-0102
 """
 import argparse, json, sys
 from pathlib import Path
@@ -11,7 +12,18 @@ from common import HERE, read_jsonl
 ap = argparse.ArgumentParser()
 ap.add_argument("--slot", required=True)
 ap.add_argument("--file", default=str(HERE / "answer.txt"))
+ap.add_argument("--drop", default="", help="raw에서 지울 계획 번호 (쉼표로 구분)")
 args = ap.parse_args()
+
+if args.drop:
+    raw_path = HERE / "raw" / f"{args.slot}.jsonl"
+    ids = {x.strip() for x in args.drop.split(",") if x.strip()}
+    rows = read_jsonl(raw_path)
+    keep = [r for r in rows if r.get("id") not in ids]
+    with open(raw_path, "w", encoding="utf-8") as out:
+        for r in keep: out.write(json.dumps(r, ensure_ascii=False) + "\n")
+    print(f"[{args.slot}] raw에서 {len(rows) - len(keep)}줄 지움. 검수(check.py)를 다시 돌려 500개가 되는지 확인")
+    sys.exit(0)
 
 src = Path(args.file)
 if not src.exists() or not src.read_text(encoding="utf-8-sig").strip():

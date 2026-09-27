@@ -11,6 +11,7 @@ ap = argparse.ArgumentParser()
 ap.add_argument("--slot", required=True)
 ap.add_argument("--personas", required=True)
 ap.add_argument("--target", type=int, required=True)   # S1~S4: 500, W_val: 200, W_test: 300
+ap.add_argument("--review", type=int, default=50)        # 눈 검사 건수. W_test는 300(전부)
 args = ap.parse_args()
 personas = args.personas.split(",")
 
@@ -69,14 +70,23 @@ if len(final) < args.target:
 (out / f"{args.slot}_report.txt").write_text("\n".join(lines), encoding="utf-8")
 print("\n".join(lines))
 
+# 이미 판정을 표시한 건은 다시 돌려도 판정을 그대로 남김 (계획 번호 기준)
+review_path = out / f"{args.slot}_review.txt"
+kept = {}
+if review_path.exists():
+    cur = None
+    for line in open(review_path, encoding="utf-8"):
+        if line.startswith("[") and " / " in line: cur = line[1:].split(" / ")[0]
+        elif line.strip().startswith("판정:") and ("[x]" in line.lower()) and cur: kept[cur] = line.rstrip("\n")
+
 rng = random.Random(1)
-review = rng.sample(final, min(50, len(final)))
-with open(out / f"{args.slot}_review.txt", "w", encoding="utf-8") as f:
+review = rng.sample(final, min(args.review, len(final)))
+with open(review_path, "w", encoding="utf-8") as f:
     for row in review:
         f.write(f"[{row['id']} / {row['persona']}]\n메모: {row['memo']}\n")
         for e in row["gold"]["events"]:
             st = "있었음" if e["status"] == "present" else "없었음"
             f.write(f"  - {KO[e['type']]} / {st} / {e['time_expr']} / {e['count']}회 / 근거: {e['evidence']}\n")
         if not row["gold"]["events"]: f.write("  - (사건 없음)\n")
-        f.write("  판정: [ ] 맞음  [ ] 틀림 → 이유:\n\n")
-print(f"눈 검사 파일: {out / (args.slot + '_review.txt')}")
+        f.write((kept.get(row["id"]) or "  판정: [ ] 맞음  [ ] 틀림 → 이유:") + "\n\n")
+print(f"눈 검사 파일: {review_path} (판정 표시 {sum(1 for r in review if r['id'] in kept)}건 / {len(review)}건)")
