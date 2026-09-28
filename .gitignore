@@ -222,3 +222,5 @@ ml/data_gen/raw/
 ml/data_gen/batches/
 .env
 ml/data_gen/answer.txt
+ml/train/out/
+ml/train/out*/
