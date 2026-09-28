@@ -1,0 +1,15 @@
+[project]
+name = "itda-ai"
+version = "0.1.0"
+description = "잇다 데이터 키트"
+authors = [
+    { name = "leejy", email = "ljy000716@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=0.40.0",
+    "pyyaml>=6.0",
+]
+
+[tool.uv]
+package = false
