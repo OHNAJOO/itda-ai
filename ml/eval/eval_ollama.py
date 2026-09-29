@@ -1,23 +1,7 @@
-"""Ollama에 등록한 모델로 평가 ①을 돌림. 채점 방식은 학습 노트북의 evaluate()와 같음 (숫자를 바로 비교할 수 있게).
-
-실행 (레포 맨 위, Ollama가 켜져 있어야 함):
-  python ml/eval/eval_ollama.py --model itda-gemma4-e4b:q4_k_m --tag itda-gemma4-e4b_q4_k_m_gpu
-옵션:
-  --file      평가 파일 (기본 ml/data/synth_eval.jsonl, val.jsonl이나 수작업 파일도 가능)
-  --n         앞에서 n건만
-  --no-schema JSON 스키마 강제 없이 호출 (노트북 평가와 같은 조건)
-  --cpu       GPU를 쓰지 않고 잼 (평가 ⑤ 추론 시간, options.num_gpu = 0)
-결과: ml/eval/results/eval_<tag>.json  (summary + 건별 기록). 끝나면 모델을 메모리에서 내림
-
-지표
-  precision/recall/f1   사건 단위. 같은 메모 안에서 (유형, 있었음/없었음)이 같으면 맞은 사건 (기획안 8-4 ①)
-  exact_match_rate      메모 단위 완전 일치율. 메모 하나의 사건 목록(유형·있었음/없었음)이 정답과 통째로 같은 비율
-  json_ok_rate          JSON으로 읽힌 비율
-  empty_correct_rate    사건이 없는 메모에서 빈 결과를 낸 비율
-  time_expr_match_rate  맞은 사건 중 시간 표현까지 같은 비율
-  evidence_in_memo_rate 예측 evidence가 메모 원문에 그대로 들어 있는 비율
-  gpu_fraction          Ollama가 모델을 GPU 메모리에 올린 비율 (1.0 = 전부 GPU, 0 = 전부 CPU)
-  server_errors         Ollama가 오류를 돌려준 건수 (재시도 1회 뒤에도 실패). 해당 메모는 JSON 실패로 채점
+"""Ollama에 등록한 모델로 평가 ①을 돌림. 채점 방식은 학습 노트북의 evaluate()와 같음.
+실행: python ml/eval/eval_ollama.py --model <ollama 이름> --tag <결과 이름> [--file] [--n] [--no-schema] [--cpu] [--raw]
+  --raw  /api/generate raw 모드. 모델 TEMPLATE에 시스템 프롬프트와 메모를 끼워 그대로 보냄 (EXAONE처럼 Ollama가 생각 모드를 켜는 모델용)
+결과: ml/eval/results/eval_<tag>.json
 """
 import argparse, json, os, subprocess, time, urllib.request
 from collections import Counter
@@ -30,6 +14,8 @@ ap.add_argument("--file", default="ml/data/synth_eval.jsonl")
 ap.add_argument("--n", type=int, default=None)
 ap.add_argument("--no-schema", action="store_true")
 ap.add_argument("--cpu", action="store_true")
+ap.add_argument("--raw", action="store_true")
+ap.add_argument("--template-file", default=None)
 ap.add_argument("--host", default="http://localhost:11434")
 ap.add_argument("--show", type=int, default=3)
 args = ap.parse_args()
@@ -61,14 +47,34 @@ def post(path, body, timeout=600):
     except (urllib.error.URLError, TimeoutError) as e:
         raise OllamaError(f"연결 오류: {e}")
 
+TEMPLATE = None
+if args.raw:
+    if args.template_file:   # Ollama가 TEMPLATE을 gguf 원래 템플릿으로 바꿔 등록한 경우, Modelfile에서 직접 읽음
+        src = open(args.template_file, encoding="utf-8").read()
+        TEMPLATE = src.split('TEMPLATE """', 1)[1].split('"""', 1)[0]
+    else:
+        TEMPLATE = post("/api/show", {"model": args.model}).get("template", "")
+    assert "{{ .Prompt }}" in TEMPLATE, "--template-file ml/serve/Modelfile.<모델>을 함께 지정"
+
 def chat(msgs, retry=1):
-    """메모 한 건 호출. 서버 오류가 나면 한 번 더 시도하고, 그래도 실패하면 오류 문자열을 답으로 돌려줌 (평가는 계속)"""
-    body = {"model": args.model, "messages": msgs, "stream": False, "keep_alive": "30m", "options": OPTIONS}
+    if args.raw:
+        sys_txt = next((m["content"] for m in msgs if m["role"] == "system"), "")
+        user_txt = next(m["content"] for m in msgs if m["role"] == "user")
+        prompt = TEMPLATE.replace("{{ .System }}", sys_txt).replace("{{ .Prompt }}", user_txt)
+        path, body = "/api/generate", {"model": args.model, "prompt": prompt, "raw": True, "stream": False,
+                                       "keep_alive": "30m", "options": OPTIONS}
+    else:
+        path, body = "/api/chat", {"model": args.model, "messages": msgs, "stream": False, "keep_alive": "30m", "options": OPTIONS}
     if FORMAT is not None:
         body["format"] = FORMAT
+    err = ""
     for k in range(retry + 1):
         try:
-            return post("/api/chat", body)["message"]["content"]
+            res = post(path, body)
+            if args.raw:
+                return res.get("response", "")
+            msg = res.get("message", {})
+            return msg.get("content") or msg.get("thinking") or ""
         except OllamaError as e:
             err = str(e)
     return "<<ERROR>> " + err
@@ -94,7 +100,6 @@ def env_info():
     return info
 
 def parse_events(text):
-    """모델 답에서 JSON을 찾아 events 목록을 돌려줌. 못 읽으면 None"""
     t = text.strip().replace("```json", "").replace("```", "")
     a, b = t.find("{"), t.rfind("}")
     if a < 0 or b < 0: return None
@@ -110,17 +115,17 @@ def load_rows(path):
     for line in open(path, encoding="utf-8"):
         if not line.strip(): continue
         r = json.loads(line)
-        if "messages" in r:      # train/val 형식
+        if "messages" in r:
             memo = r["messages"][1]["content"]; gold = json.loads(r["messages"][2]["content"])["events"]
-        else:                    # synth_eval, 수작업 형식
+        else:
             memo = r["memo"]; gold = r["gold"]["events"]
         rows.append((memo, gold))
     return rows[:args.n]
 
 rows = load_rows(ROOT / args.file)
-chat([{"role": "user", "content": "안녕"}])   # 모델을 미리 올려 두어 첫 건 시간이 튀지 않게 함
+chat([{"role": "user", "content": "안녕"}])
 gfrac = gpu_fraction()
-print(f"모델 {args.model} | {'CPU 전용' if args.cpu else 'GPU'} 요청 | GPU에 올라간 비율 {gfrac} | {len(rows)}건", flush=True)
+print(f"모델 {args.model} | {'CPU 전용' if args.cpu else 'GPU'} 요청 | raw {args.raw} | GPU 비율 {gfrac} | {len(rows)}건", flush=True)
 
 tp = fp = fn = 0; json_ok = 0; exact = 0; n_err = 0; empty_total = empty_ok = 0; te_match = te_total = 0
 ev_total = ev_in = 0
@@ -158,14 +163,14 @@ for i, (memo, gold) in enumerate(rows):
     if (i + 1) % 25 == 0:
         print(f"  {i + 1}/{len(rows)}건, {round(sum(times))}초", flush=True)
 
-post("/api/generate", {"model": args.model, "keep_alive": 0})   # 다음 측정에 영향이 없도록 모델을 내림
+post("/api/generate", {"model": args.model, "keep_alive": 0})
 
 prec = tp / (tp + fp) if tp + fp else 0; rec = tp / (tp + fn) if tp + fn else 0
 f1 = 2 * prec * rec / (prec + rec) if prec + rec else 0
 st = sorted(times)
 res = {"tag": args.tag, "model": args.model, "file": args.file, "n": len(rows),
        "schema": "none" if args.no_schema else "event_schema",
-       "device": "cpu" if args.cpu else "gpu", "gpu_fraction": gfrac,
+       "device": "cpu" if args.cpu else "gpu", "gpu_fraction": gfrac, "raw_mode": args.raw,
        "precision": round(prec, 4), "recall": round(rec, 4), "f1": round(f1, 4),
        "exact_match_rate": round(exact / len(rows), 4),
        "json_ok_rate": round(json_ok / len(rows), 4), "server_errors": n_err,

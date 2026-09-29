@@ -1,0 +1,152 @@
+{
+ "summary": {
+  "tag": "smoke",
+  "model": "itda-qwen:q4_k_m",
+  "file": "ml/data/synth_eval.jsonl",
+  "n": 5,
+  "schema": "none",
+  "device": "gpu",
+  "precision": 0.8462,
+  "recall": 0.9167,
+  "f1": 0.88,
+  "json_ok_rate": 1.0,
+  "empty_correct_rate": null,
+  "time_expr_match_rate": 1.0,
+  "evidence_in_memo_rate": 1.0,
+  "per_type_f1": {
+   "agitation": 0.0,
+   "confusion": 1.0,
+   "fall": 1.0,
+   "hallucination": 1.0,
+   "irritability": 0.667,
+   "low_mood_apathy": 1.0,
+   "medication_refusal": 1.0,
+   "night_waking": 1.0,
+   "reduced_intake": 0.0,
+   "wandering_exit": 1.0
+  },
+  "sec_per_memo": 1.73,
+  "sec_max": 2.17
+ },
+ "records": [
+  {
+   "memo": "우리 양반이 며칠 전에는 문 열고 나갈라 카는 거 없었다. 근데 별것도 아인 걸로 성을 세 번이나 내데. 약 묵으라 카니 안 묵는다꼬 손으로 밀어내삤다 아이가.",
+   "gold": [
+    {
+     "type": "wandering_exit",
+     "status": "absent",
+     "time_expr": "며칠 전",
+     "count": 1,
+     "evidence": "며칠 전에는 문 열고 나갈라 카는 거 없었다"
+    },
+    {
+     "type": "irritability",
+     "status": "present",
+     "time_expr": null,
+     "count": 3,
+     "evidence": "성을 세 번이나 내데"
+    },
+    {
+     "type": "medication_refusal",
+     "status": "present",
+     "time_expr": null,
+     "count": 1,
+     "evidence": "약 묵으라 카니 안 묵는다꼬 손으로 밀어내삤다"
+    }
+   ],
+   "pred_raw": "{\"events\": [{\"type\": \"wandering_exit\", \"status\": \"absent\", \"time_expr\": \"며칠 전\", \"count\": 1, \"evidence\": \"며칠 전에는 문 열고 나갈라 카는 거 없었다\"}, {\"type\": \"agitation\", \"status\": \"present\", \"time_expr\": null, \"count\": 3, \"evidence\": \"별것도 아인 걸로 성을 세 번이나 내데\"}, {\"type\": \"medication_refusal\", \"status\": \"present\", \"time_expr\": null, \"count\": 1, \"evidence\": \"약 묵으라 카니 안 묵는다꼬\"}]}",
+   "sec": 2.17
+  },
+  {
+   "memo": "할머니 나를 엄마로 두 번 부르심. 약 드시라니까 싫다고 안 드심. 어제 저녁엔 주무시다가 두 번 깨심",
+   "gold": [
+    {
+     "type": "confusion",
+     "status": "present",
+     "time_expr": null,
+     "count": 2,
+     "evidence": "나를 엄마로 두 번 부르심"
+    },
+    {
+     "type": "medication_refusal",
+     "status": "present",
+     "time_expr": null,
+     "count": 1,
+     "evidence": "약 드시라니까 싫다고 안 드심"
+    },
+    {
+     "type": "night_waking",
+     "status": "present",
+     "time_expr": "어제 저녁",
+     "count": 2,
+     "evidence": "어제 저녁엔 주무시다가 두 번 깨심"
+    }
+   ],
+   "pred_raw": "{\"events\": [{\"type\": \"confusion\", \"status\": \"present\", \"time_expr\": null, \"count\": 2, \"evidence\": \"나를 엄마로 두 번 부르심\"}, {\"type\": \"medication_refusal\", \"status\": \"present\", \"time_expr\": null, \"count\": 1, \"evidence\": \"약 드시라니까 싫다고 안 드심\"}, {\"type\": \"night_waking\", \"status\": \"present\", \"time_expr\": \"어제 저녁\", \"count\": 2, \"evidence\": \"어제 저녁엔 주무시다가 두 번 깨심\"}]}",
+   "sec": 1.86
+  },
+  {
+   "memo": "우리 양반이 며칠 전에 리모콘 못 찾는다꼬 버럭 성을 내데. 그 뒤로는 조용이 테레비만 보고 있다.",
+   "gold": [
+    {
+     "type": "irritability",
+     "status": "present",
+     "time_expr": "며칠 전",
+     "count": 1,
+     "evidence": "며칠 전에 리모콘 못 찾는다꼬 버럭 성을 내데"
+    }
+   ],
+   "pred_raw": "{\"events\": [{\"type\": \"irritability\", \"status\": \"present\", \"time_expr\": \"며칠 전\", \"count\": 1, \"evidence\": \"며칠 전에 리모콘 못 찾는다꼬 버럭 성을 내데\"}]}",
+   "sec": 0.79
+  },
+  {
+   "memo": "할머니 주무시다가 두 번 깨심. 화장실 가시다 두 번 넘어지심. 크게 다치진 않음. 방에 모르는 애가 서 있다고 하심",
+   "gold": [
+    {
+     "type": "night_waking",
+     "status": "present",
+     "time_expr": null,
+     "count": 2,
+     "evidence": "주무시다가 두 번 깨심"
+    },
+    {
+     "type": "fall",
+     "status": "present",
+     "time_expr": null,
+     "count": 2,
+     "evidence": "화장실 가시다 두 번 넘어지심"
+    },
+    {
+     "type": "hallucination",
+     "status": "present",
+     "time_expr": null,
+     "count": 1,
+     "evidence": "방에 모르는 애가 서 있다고 하심"
+    }
+   ],
+   "pred_raw": "{\"events\": [{\"type\": \"night_waking\", \"status\": \"present\", \"time_expr\": null, \"count\": 2, \"evidence\": \"할머니 주무시다가 두 번 깨심\"}, {\"type\": \"fall\", \"status\": \"present\", \"time_expr\": null, \"count\": 2, \"evidence\": \"화장실 가시다 두 번 넘어지심\"}, {\"type\": \"hallucination\", \"status\": \"present\", \"time_expr\": null, \"count\": 1, \"evidence\": \"방에 모르는 애가 서 있다고 하심\"}]}",
+   "sec": 1.76
+  },
+  {
+   "memo": "우리 양반이 2일 전에는 하루 종일 아무것도 하기 싫다꼬 누워만 있데. 마당에서 발이 걸려 한 번 넘어졌는데 크게는 안 다쳤다. 밥 뭇나 소리를 몇 번이고 또 묻더라.",
+   "gold": [
+    {
+     "type": "low_mood_apathy",
+     "status": "present",
+     "time_expr": "2일 전",
+     "count": 1,
+     "evidence": "2일 전에는 하루 종일 아무것도 하기 싫다꼬 누워만 있데"
+    },
+    {
+     "type": "fall",
+     "status": "present",
+     "time_expr": null,
+     "count": 1,
+     "evidence": "마당에서 발이 걸려 한 번 넘어졌는데"
+    }
+   ],
+   "pred_raw": "{\"events\": [{\"type\": \"low_mood_apathy\", \"status\": \"present\", \"time_expr\": \"2일 전\", \"count\": 1, \"evidence\": \"2일 전에는 하루 종일 아무것도 하기 싫다꼬 누워만 있데\"}, {\"type\": \"fall\", \"status\": \"present\", \"time_expr\": null, \"count\": 1, \"evidence\": \"마당에서 발이 걸려 한 번 넘어졌는데\"}, {\"type\": \"reduced_intake\", \"status\": \"present\", \"time_expr\": null, \"count\": 1, \"evidence\": \"밥 뭇나 소리를 몇 번이고 또 묻더라\"}]}",
+   "sec": 2.06
+  }
+ ]
+}
