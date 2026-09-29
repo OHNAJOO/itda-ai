@@ -224,3 +224,6 @@ ml/data_gen/batches/
 ml/data_gen/answer.txt
 ml/train/out/
 ml/train/out*/
+
+# Unsloth 자동 생성 캐시
+unsloth_compiled_cache/
