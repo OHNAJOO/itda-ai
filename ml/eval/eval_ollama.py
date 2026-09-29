@@ -16,6 +16,7 @@ ap.add_argument("--n", type=int, default=None)
 ap.add_argument("--no-schema", action="store_true")
 ap.add_argument("--cpu", action="store_true")
 ap.add_argument("--raw", action="store_true")
+ap.add_argument("--no-think", action="store_true")
 ap.add_argument("--template-file", default=None)
 ap.add_argument("--host", default="http://localhost:11434")
 ap.add_argument("--show", type=int, default=3)
@@ -68,6 +69,8 @@ def chat(msgs, retry=1):
         path, body = "/api/chat", {"model": args.model, "messages": msgs, "stream": False, "keep_alive": "30m", "options": OPTIONS}
     if FORMAT is not None:
         body["format"] = FORMAT
+    if args.no_think and not args.raw:
+        body["think"] = False
     err = ""
     for k in range(retry + 1):
         try:
@@ -171,7 +174,7 @@ f1 = 2 * prec * rec / (prec + rec) if prec + rec else 0
 st = sorted(times)
 res = {"tag": args.tag, "model": args.model, "file": args.file, "n": len(rows),
        "schema": "none" if args.no_schema else "event_schema",
-       "device": "cpu" if args.cpu else "gpu", "gpu_fraction": gfrac, "raw_mode": args.raw,
+       "device": "cpu" if args.cpu else "gpu", "gpu_fraction": gfrac, "raw_mode": args.raw, "think": not args.no_think,
        "precision": round(prec, 4), "recall": round(rec, 4), "f1": round(f1, 4),
        "exact_match_rate": round(exact / len(rows), 4),
        "json_ok_rate": round(json_ok / len(rows), 4), "server_errors": n_err,

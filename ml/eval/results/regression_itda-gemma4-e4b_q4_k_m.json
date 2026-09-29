@@ -1,0 +1,909 @@
+{
+ "summary": {
+  "model": "itda-gemma4-e4b:q4_k_m",
+  "qa_acc": 1.0,
+  "kmmlu_acc": 0.5,
+  "all_acc": 0.6875,
+  "json_contamination": 0.0,
+  "qa_by_category": {
+   "상식": 1.0,
+   "계산": 1.0,
+   "어휘": 1.0,
+   "독해": 1.0,
+   "돌봄": 1.0
+  },
+  "kmmlu_by_subject": {
+   "Korean-History": 0.4,
+   "Psychology": 0.5,
+   "Health": 0.4,
+   "Education": 0.6,
+   "Social-Welfare": 0.6
+  },
+  "n_qa": 30,
+  "n_kmmlu": 50,
+  "minutes": 0.3,
+  "run_at": "2026-09-29 21:43"
+ },
+ "records": [
+  {
+   "set": "qa",
+   "id": "q01",
+   "category": "상식",
+   "question": "대한민국의 수도는 어디인가요?",
+   "answers": [
+    "서울"
+   ],
+   "output": "서울입니다.",
+   "correct": true,
+   "json_like": false
+  },
+  {
+   "set": "qa",
+   "id": "q02",
+   "category": "상식",
+   "question": "한글을 만든 조선의 왕은 누구인가요?",
+   "answers": [
+    "세종"
+   ],
+   "output": "한글을 만든 조선의 왕은 **세종대왕**입니다.",
+   "correct": true,
+   "json_like": false
+  },
+  {
+   "set": "qa",
+   "id": "q03",
+   "category": "상식",
+   "question": "1기압에서 물이 끓는 온도는 섭씨 몇 도인가요?",
+   "answers": [
+    "100"
+   ],
+   "output": "100도입니다.",
+   "correct": true,
+   "json_like": false
+  },
+  {
+   "set": "qa",
+   "id": "q04",
+   "category": "상식",
+   "question": "윤년이 아닌 해의 1년은 며칠인가요?",
+   "answers": [
+    "365"
+   ],
+   "output": "365일",
+   "correct": true,
+   "json_like": false
+  },
+  {
+   "set": "qa",
+   "id": "q05",
+   "category": "상식",
+   "question": "태양계에서 가장 큰 행성은 무엇인가요?",
+   "answers": [
+    "목성"
+   ],
+   "output": "목성입니다.",
+   "correct": true,
+   "json_like": false
+  },
+  {
+   "set": "qa",
+   "id": "q06",
+   "category": "상식",
+   "question": "우리나라 광복절은 몇 월 며칠인가요?",
+   "answers": [
+    "8월 15일",
+    "8월15일",
+    "8.15"
+   ],
+   "output": "8월 15일입니다.",
+   "correct": true,
+   "json_like": false
+  },
+  {
+   "set": "qa",
+   "id": "q07",
+   "category": "상식",
+   "question": "무지개 색에서 빨강 바로 다음 색은 무엇인가요?",
+   "answers": [
+    "주황"
+   ],
+   "output": "주황색입니다.",
+   "correct": true,
+   "json_like": false
+  },
+  {
+   "set": "qa",
+   "id": "q08",
+   "category": "상식",
+   "question": "우리나라에서 구급차를 부를 때 누르는 전화번호는 무엇인가요?",
+   "answers": [
+    "119"
+   ],
+   "output": "119입니다.",
+   "correct": true,
+   "json_like": false
+  },
+  {
+   "set": "qa",
+   "id": "q09",
+   "category": "계산",
+   "question": "17 더하기 25는 얼마인가요?",
+   "answers": [
+    "42"
+   ],
+   "output": "42",
+   "correct": true,
+   "json_like": false
+  },
+  {
+   "set": "qa",
+   "id": "q10",
+   "category": "계산",
+   "question": "12 곱하기 12는 얼마인가요?",
+   "answers": [
+    "144"
+   ],
+   "output": "144입니다.",
+   "correct": true,
+   "json_like": false
+  },
+  {
+   "set": "qa",
+   "id": "q11",
+   "category": "계산",
+   "question": "사과 3개가 1,500원이면 사과 7개는 얼마인가요?",
+   "answers": [
+    "3500",
+    "3,500",
+    "삼천오백"
+   ],
+   "output": "3,500원입니다.",
+   "correct": true,
+   "json_like": false
+  },
+  {
+   "set": "qa",
+   "id": "q12",
+   "category": "계산",
+   "question": "오전 9시에 약을 먹고 8시간 뒤에 다시 먹어야 합니다. 몇 시에 먹어야 하나요?",
+   "answers": [
+    "오후 5시",
+    "17시",
+    "오후 다섯 시",
+    "오후 5 시"
+   ],
+   "output": "오후 5시입니다.",
+   "correct": true,
+   "json_like": false
+  },
+  {
+   "set": "qa",
+   "id": "q13",
+   "category": "계산",
+   "question": "100에서 37을 빼면 얼마인가요?",
+   "answers": [
+    "63"
+   ],
+   "output": "63입니다.",
+   "correct": true,
+   "json_like": false
+  },
+  {
+   "set": "qa",
+   "id": "q14",
+   "category": "계산",
+   "question": "2를 10번 곱하면 얼마인가요?",
+   "answers": [
+    "1024",
+    "1,024"
+   ],
+   "output": "1024",
+   "correct": true,
+   "json_like": false
+  },
+  {
+   "set": "qa",
+   "id": "q15",
+   "category": "어휘",
+   "question": "'밥'의 높임말은 무엇인가요?",
+   "answers": [
+    "진지"
+   ],
+   "output": "진지(밥) 또는 밥상(식사)을 사용합니다.",
+   "correct": true,
+   "json_like": false
+  },
+  {
+   "set": "qa",
+   "id": "q16",
+   "category": "어휘",
+   "question": "'나이'의 높임말은 무엇인가요?",
+   "answers": [
+    "연세",
+    "춘추"
+   ],
+   "output": "연세",
+   "correct": true,
+   "json_like": false
+  },
+  {
+   "set": "qa",
+   "id": "q17",
+   "category": "어휘",
+   "question": "'먹다'의 높임말은 무엇인가요?",
+   "answers": [
+    "드시다",
+    "잡수시다",
+    "잡수다"
+   ],
+   "output": "'잡수시다' 또는 '드시다'입니다.",
+   "correct": true,
+   "json_like": false
+  },
+  {
+   "set": "qa",
+   "id": "q18",
+   "category": "어휘",
+   "question": "'자다'의 높임말은 무엇인가요?",
+   "answers": [
+    "주무시다"
+   ],
+   "output": "주무시다",
+   "correct": true,
+   "json_like": false
+  },
+  {
+   "set": "qa",
+   "id": "q19",
+   "category": "어휘",
+   "question": "'빠르다'의 반대말은 무엇인가요?",
+   "answers": [
+    "느리다"
+   ],
+   "output": "느리다",
+   "correct": true,
+   "json_like": false
+  },
+  {
+   "set": "qa",
+   "id": "q20",
+   "category": "어휘",
+   "question": "'옷을 입다'에서 '입다'의 반대말은 무엇인가요?",
+   "answers": [
+    "벗다"
+   ],
+   "output": "벗다",
+   "correct": true,
+   "json_like": false
+  },
+  {
+   "set": "qa",
+   "id": "q21",
+   "category": "독해",
+   "question": "다음 글을 읽고 답하세요. '민수는 월요일에 병원에 갔고, 수요일에 약국에 갔다.' 민수가 약국에 간 요일은?",
+   "answers": [
+    "수요일"
+   ],
+   "output": "수요일",
+   "correct": true,
+   "json_like": false
+  },
+  {
+   "set": "qa",
+   "id": "q22",
+   "category": "독해",
+   "question": "다음 글을 읽고 답하세요. '할머니는 아침에 산책을 하시고 점심을 드신 뒤 낮잠을 주무신다.' 할머니는 언제 산책을 하시나요?",
+   "answers": [
+    "아침"
+   ],
+   "output": "아침에 산책을 하십니다.",
+   "correct": true,
+   "json_like": false
+  },
+  {
+   "set": "qa",
+   "id": "q23",
+   "category": "독해",
+   "question": "다음 글을 읽고 답하세요. '영희는 사과를 5개 샀고 그중 2개를 먹었다.' 남은 사과는 몇 개인가요?",
+   "answers": [
+    "3개",
+    "세 개",
+    "3 개"
+   ],
+   "output": "3개",
+   "correct": true,
+   "json_like": false
+  },
+  {
+   "set": "qa",
+   "id": "q24",
+   "category": "독해",
+   "question": "다음 글을 읽고 답하세요. '기차는 10시에 출발해서 12시 30분에 도착했다.' 걸린 시간은?",
+   "answers": [
+    "2시간 30분",
+    "2시간30분",
+    "두 시간 30분",
+    "150분",
+    "2시간 반",
+    "두 시간 반"
+   ],
+   "output": "2시간 30분",
+   "correct": true,
+   "json_like": false
+  },
+  {
+   "set": "qa",
+   "id": "q25",
+   "category": "독해",
+   "question": "다음 글을 읽고 답하세요. '철수는 영희보다 키가 크고, 영희는 민지보다 키가 크다.' 가장 키가 작은 사람은?",
+   "answers": [
+    "민지"
+   ],
+   "output": "민지",
+   "correct": true,
+   "json_like": false
+  },
+  {
+   "set": "qa",
+   "id": "q26",
+   "category": "돌봄",
+   "question": "치매의 원인 질환 가운데 가장 흔한 것은 무엇인가요?",
+   "answers": [
+    "알츠하이머"
+   ],
+   "output": "알츠하이머병입니다.",
+   "correct": true,
+   "json_like": false
+  },
+  {
+   "set": "qa",
+   "id": "q27",
+   "category": "돌봄",
+   "question": "혈압을 재는 기구의 이름은 무엇인가요?",
+   "answers": [
+    "혈압계"
+   ],
+   "output": "혈압계입니다.",
+   "correct": true,
+   "json_like": false
+  },
+  {
+   "set": "qa",
+   "id": "q28",
+   "category": "돌봄",
+   "question": "탈수를 막으려면 무엇을 자주 마시는 것이 좋나요? 한 단어로 답하세요.",
+   "answers": [
+    "물"
+   ],
+   "output": "물",
+   "correct": true,
+   "json_like": false
+  },
+  {
+   "set": "qa",
+   "id": "q29",
+   "category": "돌봄",
+   "question": "노인의 낙상을 막기 위해 욕실 바닥에 까는 것은 무엇인가요?",
+   "answers": [
+    "미끄럼",
+    "논슬립",
+    "미끄러짐 방지"
+   ],
+   "output": "미끄럼 방지 매트(또는 미끄럼 방지 타일/스티커)입니다.",
+   "correct": true,
+   "json_like": false
+  },
+  {
+   "set": "qa",
+   "id": "q30",
+   "category": "돌봄",
+   "question": "당뇨병 환자가 주로 관리해야 하는 혈액 속 수치는 무엇인가요?",
+   "answers": [
+    "혈당"
+   ],
+   "output": "혈당(혈액 속 포도당) 수치입니다.",
+   "correct": true,
+   "json_like": false
+  },
+  {
+   "set": "kmmlu",
+   "id": "Korean-History-48",
+   "category": "Korean-History",
+   "answer": 2,
+   "output": "1",
+   "pred": 1,
+   "correct": false,
+   "json_like": false
+  },
+  {
+   "set": "kmmlu",
+   "id": "Korean-History-66",
+   "category": "Korean-History",
+   "answer": 4,
+   "output": "2",
+   "pred": 2,
+   "correct": false,
+   "json_like": false
+  },
+  {
+   "set": "kmmlu",
+   "id": "Korean-History-94",
+   "category": "Korean-History",
+   "answer": 3,
+   "output": "3",
+   "pred": 3,
+   "correct": true,
+   "json_like": false
+  },
+  {
+   "set": "kmmlu",
+   "id": "Korean-History-37",
+   "category": "Korean-History",
+   "answer": 4,
+   "output": "4",
+   "pred": 4,
+   "correct": true,
+   "json_like": false
+  },
+  {
+   "set": "kmmlu",
+   "id": "Korean-History-85",
+   "category": "Korean-History",
+   "answer": 3,
+   "output": "1",
+   "pred": 1,
+   "correct": false,
+   "json_like": false
+  },
+  {
+   "set": "kmmlu",
+   "id": "Korean-History-59",
+   "category": "Korean-History",
+   "answer": 1,
+   "output": "2",
+   "pred": 2,
+   "correct": false,
+   "json_like": false
+  },
+  {
+   "set": "kmmlu",
+   "id": "Korean-History-18",
+   "category": "Korean-History",
+   "answer": 2,
+   "output": "1",
+   "pred": 1,
+   "correct": false,
+   "json_like": false
+  },
+  {
+   "set": "kmmlu",
+   "id": "Korean-History-55",
+   "category": "Korean-History",
+   "answer": 3,
+   "output": "1",
+   "pred": 1,
+   "correct": false,
+   "json_like": false
+  },
+  {
+   "set": "kmmlu",
+   "id": "Korean-History-30",
+   "category": "Korean-History",
+   "answer": 1,
+   "output": "1",
+   "pred": 1,
+   "correct": true,
+   "json_like": false
+  },
+  {
+   "set": "kmmlu",
+   "id": "Korean-History-76",
+   "category": "Korean-History",
+   "answer": 2,
+   "output": "2",
+   "pred": 2,
+   "correct": true,
+   "json_like": false
+  },
+  {
+   "set": "kmmlu",
+   "id": "Psychology-374",
+   "category": "Psychology",
+   "answer": 4,
+   "output": "2",
+   "pred": 2,
+   "correct": false,
+   "json_like": false
+  },
+  {
+   "set": "kmmlu",
+   "id": "Psychology-493",
+   "category": "Psychology",
+   "answer": 1,
+   "output": "2",
+   "pred": 2,
+   "correct": false,
+   "json_like": false
+  },
+  {
+   "set": "kmmlu",
+   "id": "Psychology-837",
+   "category": "Psychology",
+   "answer": 3,
+   "output": "3",
+   "pred": 3,
+   "correct": true,
+   "json_like": false
+  },
+  {
+   "set": "kmmlu",
+   "id": "Psychology-69",
+   "category": "Psychology",
+   "answer": 3,
+   "output": "4",
+   "pred": 4,
+   "correct": false,
+   "json_like": false
+  },
+  {
+   "set": "kmmlu",
+   "id": "Psychology-519",
+   "category": "Psychology",
+   "answer": 3,
+   "output": "3",
+   "pred": 3,
+   "correct": true,
+   "json_like": false
+  },
+  {
+   "set": "kmmlu",
+   "id": "Psychology-9",
+   "category": "Psychology",
+   "answer": 4,
+   "output": "1",
+   "pred": 1,
+   "correct": false,
+   "json_like": false
+  },
+  {
+   "set": "kmmlu",
+   "id": "Psychology-318",
+   "category": "Psychology",
+   "answer": 4,
+   "output": "4",
+   "pred": 4,
+   "correct": true,
+   "json_like": false
+  },
+  {
+   "set": "kmmlu",
+   "id": "Psychology-513",
+   "category": "Psychology",
+   "answer": 1,
+   "output": "1",
+   "pred": 1,
+   "correct": true,
+   "json_like": false
+  },
+  {
+   "set": "kmmlu",
+   "id": "Psychology-597",
+   "category": "Psychology",
+   "answer": 2,
+   "output": "4",
+   "pred": 4,
+   "correct": false,
+   "json_like": false
+  },
+  {
+   "set": "kmmlu",
+   "id": "Psychology-606",
+   "category": "Psychology",
+   "answer": 4,
+   "output": "4",
+   "pred": 4,
+   "correct": true,
+   "json_like": false
+  },
+  {
+   "set": "kmmlu",
+   "id": "Health-54",
+   "category": "Health",
+   "answer": 4,
+   "output": "2",
+   "pred": 2,
+   "correct": false,
+   "json_like": false
+  },
+  {
+   "set": "kmmlu",
+   "id": "Health-58",
+   "category": "Health",
+   "answer": 2,
+   "output": "3",
+   "pred": 3,
+   "correct": false,
+   "json_like": false
+  },
+  {
+   "set": "kmmlu",
+   "id": "Health-56",
+   "category": "Health",
+   "answer": 4,
+   "output": "4",
+   "pred": 4,
+   "correct": true,
+   "json_like": false
+  },
+  {
+   "set": "kmmlu",
+   "id": "Health-64",
+   "category": "Health",
+   "answer": 3,
+   "output": "1",
+   "pred": 1,
+   "correct": false,
+   "json_like": false
+  },
+  {
+   "set": "kmmlu",
+   "id": "Health-57",
+   "category": "Health",
+   "answer": 1,
+   "output": "3",
+   "pred": 3,
+   "correct": false,
+   "json_like": false
+  },
+  {
+   "set": "kmmlu",
+   "id": "Health-86",
+   "category": "Health",
+   "answer": 3,
+   "output": "2",
+   "pred": 2,
+   "correct": false,
+   "json_like": false
+  },
+  {
+   "set": "kmmlu",
+   "id": "Health-16",
+   "category": "Health",
+   "answer": 4,
+   "output": "4",
+   "pred": 4,
+   "correct": true,
+   "json_like": false
+  },
+  {
+   "set": "kmmlu",
+   "id": "Health-89",
+   "category": "Health",
+   "answer": 3,
+   "output": "4",
+   "pred": 4,
+   "correct": false,
+   "json_like": false
+  },
+  {
+   "set": "kmmlu",
+   "id": "Health-99",
+   "category": "Health",
+   "answer": 1,
+   "output": "1",
+   "pred": 1,
+   "correct": true,
+   "json_like": false
+  },
+  {
+   "set": "kmmlu",
+   "id": "Health-7",
+   "category": "Health",
+   "answer": 1,
+   "output": "1",
+   "pred": 1,
+   "correct": true,
+   "json_like": false
+  },
+  {
+   "set": "kmmlu",
+   "id": "Education-23",
+   "category": "Education",
+   "answer": 3,
+   "output": "1",
+   "pred": 1,
+   "correct": false,
+   "json_like": false
+  },
+  {
+   "set": "kmmlu",
+   "id": "Education-62",
+   "category": "Education",
+   "answer": 1,
+   "output": "4",
+   "pred": 4,
+   "correct": false,
+   "json_like": false
+  },
+  {
+   "set": "kmmlu",
+   "id": "Education-55",
+   "category": "Education",
+   "answer": 4,
+   "output": "4",
+   "pred": 4,
+   "correct": true,
+   "json_like": false
+  },
+  {
+   "set": "kmmlu",
+   "id": "Education-16",
+   "category": "Education",
+   "answer": 1,
+   "output": "1",
+   "pred": 1,
+   "correct": true,
+   "json_like": false
+  },
+  {
+   "set": "kmmlu",
+   "id": "Education-32",
+   "category": "Education",
+   "answer": 4,
+   "output": "4",
+   "pred": 4,
+   "correct": true,
+   "json_like": false
+  },
+  {
+   "set": "kmmlu",
+   "id": "Education-81",
+   "category": "Education",
+   "answer": 3,
+   "output": "3",
+   "pred": 3,
+   "correct": true,
+   "json_like": false
+  },
+  {
+   "set": "kmmlu",
+   "id": "Education-40",
+   "category": "Education",
+   "answer": 1,
+   "output": "1",
+   "pred": 1,
+   "correct": true,
+   "json_like": false
+  },
+  {
+   "set": "kmmlu",
+   "id": "Education-63",
+   "category": "Education",
+   "answer": 2,
+   "output": "4",
+   "pred": 4,
+   "correct": false,
+   "json_like": false
+  },
+  {
+   "set": "kmmlu",
+   "id": "Education-18",
+   "category": "Education",
+   "answer": 1,
+   "output": "3",
+   "pred": 3,
+   "correct": false,
+   "json_like": false
+  },
+  {
+   "set": "kmmlu",
+   "id": "Education-1",
+   "category": "Education",
+   "answer": 3,
+   "output": "3",
+   "pred": 3,
+   "correct": true,
+   "json_like": false
+  },
+  {
+   "set": "kmmlu",
+   "id": "Social-Welfare-133",
+   "category": "Social-Welfare",
+   "answer": 3,
+   "output": "2",
+   "pred": 2,
+   "correct": false,
+   "json_like": false
+  },
+  {
+   "set": "kmmlu",
+   "id": "Social-Welfare-514",
+   "category": "Social-Welfare",
+   "answer": 4,
+   "output": "2",
+   "pred": 2,
+   "correct": false,
+   "json_like": false
+  },
+  {
+   "set": "kmmlu",
+   "id": "Social-Welfare-835",
+   "category": "Social-Welfare",
+   "answer": 4,
+   "output": "4",
+   "pred": 4,
+   "correct": true,
+   "json_like": false
+  },
+  {
+   "set": "kmmlu",
+   "id": "Social-Welfare-557",
+   "category": "Social-Welfare",
+   "answer": 2,
+   "output": "2",
+   "pred": 2,
+   "correct": true,
+   "json_like": false
+  },
+  {
+   "set": "kmmlu",
+   "id": "Social-Welfare-455",
+   "category": "Social-Welfare",
+   "answer": 1,
+   "output": "4",
+   "pred": 4,
+   "correct": false,
+   "json_like": false
+  },
+  {
+   "set": "kmmlu",
+   "id": "Social-Welfare-855",
+   "category": "Social-Welfare",
+   "answer": 4,
+   "output": "4",
+   "pred": 4,
+   "correct": true,
+   "json_like": false
+  },
+  {
+   "set": "kmmlu",
+   "id": "Social-Welfare-467",
+   "category": "Social-Welfare",
+   "answer": 2,
+   "output": "2",
+   "pred": 2,
+   "correct": true,
+   "json_like": false
+  },
+  {
+   "set": "kmmlu",
+   "id": "Social-Welfare-711",
+   "category": "Social-Welfare",
+   "answer": 1,
+   "output": "2",
+   "pred": 2,
+   "correct": false,
+   "json_like": false
+  },
+  {
+   "set": "kmmlu",
+   "id": "Social-Welfare-720",
+   "category": "Social-Welfare",
+   "answer": 2,
+   "output": "2",
+   "pred": 2,
+   "correct": true,
+   "json_like": false
+  },
+  {
+   "set": "kmmlu",
+   "id": "Social-Welfare-688",
+   "category": "Social-Welfare",
+   "answer": 2,
+   "output": "2",
+   "pred": 2,
+   "correct": true,
+   "json_like": false
+  }
+ ]
+}

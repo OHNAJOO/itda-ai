@@ -230,3 +230,4 @@ unsloth_compiled_cache/
 
 # 모델 파일 (용량이 커서 Git 밖에서 옮김)
 *.gguf
+wandb/
