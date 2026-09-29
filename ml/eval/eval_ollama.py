@@ -1,6 +1,7 @@
 """Ollama에 등록한 모델로 평가 ①을 돌림. 채점 방식은 학습 노트북의 evaluate()와 같음.
-실행: python ml/eval/eval_ollama.py --model <ollama 이름> --tag <결과 이름> [--file] [--n] [--no-schema] [--cpu] [--raw]
-  --raw  /api/generate raw 모드. 모델 TEMPLATE에 시스템 프롬프트와 메모를 끼워 그대로 보냄 (EXAONE처럼 Ollama가 생각 모드를 켜는 모델용)
+실행: python ml/eval/eval_ollama.py --model <ollama 이름> --tag <결과 이름> [--file] [--n] [--no-schema] [--cpu] [--raw [--template-file]]
+  --raw            /api/generate raw 모드. 모델 TEMPLATE에 시스템 프롬프트와 메모를 끼워 그대로 보냄
+  --template-file  --raw일 때 템플릿을 이 Modelfile에서 읽음 (Ollama가 TEMPLATE을 바꿔 등록한 EXAONE용)
 결과: ml/eval/results/eval_<tag>.json
 """
 import argparse, json, os, subprocess, time, urllib.request
@@ -49,7 +50,7 @@ def post(path, body, timeout=600):
 
 TEMPLATE = None
 if args.raw:
-    if args.template_file:   # Ollama가 TEMPLATE을 gguf 원래 템플릿으로 바꿔 등록한 경우, Modelfile에서 직접 읽음
+    if args.template_file:
         src = open(args.template_file, encoding="utf-8").read()
         TEMPLATE = src.split('TEMPLATE """', 1)[1].split('"""', 1)[0]
     else:

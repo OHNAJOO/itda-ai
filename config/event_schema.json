@@ -1,0 +1,25 @@
+{
+  "type": "object",
+  "properties": {
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": ["night_waking", "wandering_exit", "agitation", "irritability",
+                     "anxiety", "low_mood_apathy", "delusion", "hallucination",
+                     "reduced_intake", "medication_refusal", "confusion", "fall"]
+          },
+          "status": { "type": "string", "enum": ["present", "absent"] },
+          "time_expr": { "type": ["string", "null"] },
+          "count": { "type": "integer", "minimum": 1 },
+          "evidence": { "type": "string" }
+        },
+        "required": ["type", "status", "time_expr", "count", "evidence"]
+      }
+    }
+  },
+  "required": ["events"]
+}

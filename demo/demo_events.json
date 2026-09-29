@@ -1,0 +1,1119 @@
+{
+ "patient": {
+  "alias": "어머니"
+ },
+ "visits": [
+  "2026-05-21",
+  "2026-08-20"
+ ],
+ "medications": [
+  {
+   "name": "트라조돈 25mg",
+   "change_type": "start",
+   "change_date": "2026-09-10"
+  }
+ ],
+ "questions": [
+  {
+   "text": "약 시작하고 밤에 깨시는 게 줄었는데, 계속 같은 용량으로 드셔도 되는지",
+   "created_at": "2026-09-18"
+  },
+  {
+   "text": "창밖에 사람이 있다고 하실 때 어떻게 대하면 좋은지",
+   "created_at": "2026-09-21"
+  }
+ ],
+ "as_of": "2026-09-26",
+ "events": [
+  {
+   "memo_id": 1,
+   "event_date": "2026-05-21",
+   "date_unknown": false,
+   "type": "night_waking",
+   "status": "present",
+   "time_expr": "어젯밤",
+   "count": 2,
+   "evidence": "어젯밤 두 번 깨심"
+  },
+  {
+   "memo_id": 3,
+   "event_date": "2026-05-24",
+   "date_unknown": false,
+   "type": "night_waking",
+   "status": "present",
+   "time_expr": "새벽에",
+   "count": 3,
+   "evidence": "새벽에 세 번이나 깨셔서 나도 잠을 설침"
+  },
+  {
+   "memo_id": 3,
+   "event_date": "2026-05-24",
+   "date_unknown": false,
+   "type": "reduced_intake",
+   "status": "present",
+   "time_expr": "어제 점심때",
+   "count": 2,
+   "evidence": "어제 점심때 평소보다 적게 드시고 두 끼를 거의 남기심"
+  },
+  {
+   "memo_id": 6,
+   "event_date": "2026-05-27",
+   "date_unknown": false,
+   "type": "night_waking",
+   "status": "present",
+   "time_expr": "어젯밤",
+   "count": 1,
+   "evidence": "어젯밤 깨셔서 한참 못 주무심"
+  },
+  {
+   "memo_id": 8,
+   "event_date": "2026-05-29",
+   "date_unknown": false,
+   "type": "irritability",
+   "status": "present",
+   "time_expr": "어제 오후",
+   "count": 2,
+   "evidence": "어제 오후 별것 아닌 일로 두 번 짜증 내심"
+  },
+  {
+   "memo_id": 8,
+   "event_date": "2026-05-29",
+   "date_unknown": false,
+   "type": "anxiety",
+   "status": "present",
+   "time_expr": "어제 점심때",
+   "count": 2,
+   "evidence": "어제 점심때 혼자 있기 무섭다고 두 번 전화하심"
+  },
+  {
+   "memo_id": 10,
+   "event_date": "2026-06-01",
+   "date_unknown": false,
+   "type": "confusion",
+   "status": "present",
+   "time_expr": "어제 저녁",
+   "count": 1,
+   "evidence": "어제 저녁 나를 언니라고 부르심"
+  },
+  {
+   "memo_id": 10,
+   "event_date": "2026-06-01",
+   "date_unknown": false,
+   "type": "medication_refusal",
+   "status": "present",
+   "time_expr": "어제 오후",
+   "count": 1,
+   "evidence": "어제 오후 약은 나중에 먹겠다고 계속 미루심"
+  },
+  {
+   "memo_id": 12,
+   "event_date": "2026-06-03",
+   "date_unknown": false,
+   "type": "night_waking",
+   "status": "present",
+   "time_expr": "새벽에",
+   "count": 2,
+   "evidence": "새벽에 두 번 깨심"
+  },
+  {
+   "memo_id": 13,
+   "event_date": "2026-06-04",
+   "date_unknown": false,
+   "type": "night_waking",
+   "status": "present",
+   "time_expr": "새벽에",
+   "count": 1,
+   "evidence": "새벽에 깨셔서 불 켜 놓고 앉아 계심"
+  },
+  {
+   "memo_id": 13,
+   "event_date": "2026-06-04",
+   "date_unknown": false,
+   "type": "reduced_intake",
+   "status": "present",
+   "time_expr": "어제 저녁",
+   "count": 1,
+   "evidence": "어제 저녁 평소보다 식사를 절반도 안 드심"
+  },
+  {
+   "memo_id": 16,
+   "event_date": "2026-06-07",
+   "date_unknown": false,
+   "type": "anxiety",
+   "status": "present",
+   "time_expr": "어제",
+   "count": 1,
+   "evidence": "어제 누가 문 두드릴까 봐 무섭다고 하심"
+  },
+  {
+   "memo_id": 17,
+   "event_date": "2026-06-08",
+   "date_unknown": false,
+   "type": "irritability",
+   "status": "present",
+   "time_expr": null,
+   "count": 2,
+   "evidence": "별것 아닌 일로 두 번 짜증 내심"
+  },
+  {
+   "memo_id": 17,
+   "event_date": "2026-06-08",
+   "date_unknown": false,
+   "type": "confusion",
+   "status": "present",
+   "time_expr": "오늘",
+   "count": 1,
+   "evidence": "오늘 여기가 어디냐고 집에 가자고 하심"
+  },
+  {
+   "memo_id": 18,
+   "event_date": "2026-06-10",
+   "date_unknown": false,
+   "type": "confusion",
+   "status": "present",
+   "time_expr": "어제 저녁",
+   "count": 1,
+   "evidence": "어제 저녁 나를 언니라고 부르심"
+  },
+  {
+   "memo_id": 19,
+   "event_date": "2026-06-11",
+   "date_unknown": false,
+   "type": "low_mood_apathy",
+   "status": "present",
+   "time_expr": "아까",
+   "count": 1,
+   "evidence": "아까 좋아하시던 트로트 틀어 드려도 관심 없으심"
+  },
+  {
+   "memo_id": 20,
+   "event_date": "2026-06-12",
+   "date_unknown": false,
+   "type": "wandering_exit",
+   "status": "present",
+   "time_expr": "어제 오후",
+   "count": 2,
+   "evidence": "어제 오후 현관문 쪽으로 두 번 나가시려 함"
+  },
+  {
+   "memo_id": 20,
+   "event_date": "2026-06-12",
+   "date_unknown": false,
+   "type": "reduced_intake",
+   "status": "present",
+   "time_expr": "어제",
+   "count": 1,
+   "evidence": "어제 밥 안 드신다고 숟가락 내려놓으심"
+  },
+  {
+   "memo_id": 20,
+   "event_date": "2026-06-12",
+   "date_unknown": false,
+   "type": "delusion",
+   "status": "present",
+   "time_expr": "어제 아침",
+   "count": 1,
+   "evidence": "어제 아침 지갑을 누가 가져갔다고 하심"
+  },
+  {
+   "memo_id": 21,
+   "event_date": "2026-06-13",
+   "date_unknown": false,
+   "type": "delusion",
+   "status": "present",
+   "time_expr": "어제",
+   "count": 1,
+   "evidence": "어제 지갑을 누가 가져갔다고 하심"
+  },
+  {
+   "memo_id": 22,
+   "event_date": "2026-06-14",
+   "date_unknown": false,
+   "type": "agitation",
+   "status": "present",
+   "time_expr": "어제 저녁",
+   "count": 1,
+   "evidence": "어제 저녁 목욕시켜 드리는데 소리 지르시고 밀치심"
+  },
+  {
+   "memo_id": 24,
+   "event_date": "2026-06-16",
+   "date_unknown": false,
+   "type": "irritability",
+   "status": "present",
+   "time_expr": "어제 오후",
+   "count": 1,
+   "evidence": "어제 오후 리모컨 못 찾으신다고 버럭 화내심"
+  },
+  {
+   "memo_id": 25,
+   "event_date": "2026-06-17",
+   "date_unknown": false,
+   "type": "night_waking",
+   "status": "present",
+   "time_expr": "새벽 두 시쯤",
+   "count": 1,
+   "evidence": "새벽 두 시쯤 깨셔서 불 켜 놓고 앉아 계심"
+  },
+  {
+   "memo_id": 26,
+   "event_date": "2026-06-18",
+   "date_unknown": false,
+   "type": "night_waking",
+   "status": "present",
+   "time_expr": "새벽에",
+   "count": 1,
+   "evidence": "새벽에 깨셔서 불 켜 놓고 앉아 계심"
+  },
+  {
+   "memo_id": 28,
+   "event_date": "2026-06-20",
+   "date_unknown": false,
+   "type": "wandering_exit",
+   "status": "present",
+   "time_expr": "저녁에",
+   "count": 1,
+   "evidence": "저녁에 신발 신고 나가신다고 해서 한참 달램"
+  },
+  {
+   "memo_id": 31,
+   "event_date": "2026-06-24",
+   "date_unknown": false,
+   "type": "anxiety",
+   "status": "present",
+   "time_expr": null,
+   "count": 2,
+   "evidence": "혼자 있기 무섭다고 두 번 전화하심"
+  },
+  {
+   "memo_id": 32,
+   "event_date": "2026-06-25",
+   "date_unknown": false,
+   "type": "night_waking",
+   "status": "present",
+   "time_expr": "새벽 두 시쯤",
+   "count": 1,
+   "evidence": "새벽 두 시쯤 깨셔서 불 켜 놓고 앉아 계심"
+  },
+  {
+   "memo_id": 33,
+   "event_date": "2026-06-26",
+   "date_unknown": false,
+   "type": "night_waking",
+   "status": "present",
+   "time_expr": "어젯밤",
+   "count": 1,
+   "evidence": "어젯밤 깨셔서 불 켜 놓고 앉아 계심"
+  },
+  {
+   "memo_id": 33,
+   "event_date": "2026-06-26",
+   "date_unknown": false,
+   "type": "wandering_exit",
+   "status": "present",
+   "time_expr": "어제 아침",
+   "count": 2,
+   "evidence": "어제 아침 현관문 쪽으로 두 번 나가시려 함"
+  },
+  {
+   "memo_id": 33,
+   "event_date": "2026-06-26",
+   "date_unknown": false,
+   "type": "irritability",
+   "status": "present",
+   "time_expr": "어제 점심때",
+   "count": 1,
+   "evidence": "어제 점심때 리모컨 못 찾으신다고 버럭 화내심"
+  },
+  {
+   "memo_id": 35,
+   "event_date": "2026-06-29",
+   "date_unknown": false,
+   "type": "anxiety",
+   "status": "present",
+   "time_expr": "어제 오후",
+   "count": 1,
+   "evidence": "어제 오후 통장 걱정을 계속 하심"
+  },
+  {
+   "memo_id": 37,
+   "event_date": "2026-07-01",
+   "date_unknown": false,
+   "type": "low_mood_apathy",
+   "status": "present",
+   "time_expr": "어제",
+   "count": 1,
+   "evidence": "어제 기운 없이 멍하니 앉아 계심"
+  },
+  {
+   "memo_id": 38,
+   "event_date": "2026-07-02",
+   "date_unknown": false,
+   "type": "wandering_exit",
+   "status": "present",
+   "time_expr": null,
+   "count": 2,
+   "evidence": "현관문 쪽으로 두 번 나가시려 함"
+  },
+  {
+   "memo_id": 39,
+   "event_date": "2026-07-03",
+   "date_unknown": false,
+   "type": "reduced_intake",
+   "status": "present",
+   "time_expr": null,
+   "count": 1,
+   "evidence": "평소보다 식사를 절반도 안 드심"
+  },
+  {
+   "memo_id": 41,
+   "event_date": "2026-07-05",
+   "date_unknown": false,
+   "type": "irritability",
+   "status": "present",
+   "time_expr": null,
+   "count": 1,
+   "evidence": "사소한 걸로 계속 신경질 내심"
+  },
+  {
+   "memo_id": 42,
+   "event_date": "2026-07-06",
+   "date_unknown": false,
+   "type": "confusion",
+   "status": "present",
+   "time_expr": "아까",
+   "count": 1,
+   "evidence": "아까 여기가 어디냐고 집에 가자고 하심"
+  },
+  {
+   "memo_id": 42,
+   "event_date": "2026-07-06",
+   "date_unknown": false,
+   "type": "delusion",
+   "status": "present",
+   "time_expr": "아까",
+   "count": 1,
+   "evidence": "아까 지갑을 누가 가져갔다고 하심"
+  },
+  {
+   "memo_id": 43,
+   "event_date": "2026-07-08",
+   "date_unknown": false,
+   "type": "night_waking",
+   "status": "present",
+   "time_expr": "어젯밤",
+   "count": 2,
+   "evidence": "어젯밤 두 번 깨셔서 나도 잠을 설침"
+  },
+  {
+   "memo_id": 44,
+   "event_date": "2026-07-10",
+   "date_unknown": false,
+   "type": "night_waking",
+   "status": "absent",
+   "time_expr": "어젯밤",
+   "count": 1,
+   "evidence": "어젯밤엔 한 번도 안 깨고 푹 주무심"
+  },
+  {
+   "memo_id": 45,
+   "event_date": "2026-07-11",
+   "date_unknown": false,
+   "type": "night_waking",
+   "status": "present",
+   "time_expr": "어젯밤",
+   "count": 1,
+   "evidence": "어젯밤 깨셔서 한참 못 주무심"
+  },
+  {
+   "memo_id": 46,
+   "event_date": "2026-07-12",
+   "date_unknown": false,
+   "type": "night_waking",
+   "status": "absent",
+   "time_expr": "어젯밤",
+   "count": 1,
+   "evidence": "어젯밤엔 한 번도 안 깨고 푹 주무심"
+  },
+  {
+   "memo_id": 47,
+   "event_date": "2026-07-13",
+   "date_unknown": false,
+   "type": "agitation",
+   "status": "present",
+   "time_expr": "어제 아침",
+   "count": 1,
+   "evidence": "어제 아침 목욕시켜 드리는데 소리 지르시고 밀치심"
+  },
+  {
+   "memo_id": 48,
+   "event_date": "2026-07-14",
+   "date_unknown": false,
+   "type": "night_waking",
+   "status": "present",
+   "time_expr": "새벽 두 시쯤",
+   "count": 1,
+   "evidence": "새벽 두 시쯤 깨셔서 한참 못 주무심"
+  },
+  {
+   "memo_id": 54,
+   "event_date": "2026-07-23",
+   "date_unknown": false,
+   "type": "night_waking",
+   "status": "present",
+   "time_expr": "어젯밤",
+   "count": 2,
+   "evidence": "어젯밤 두 번 깨심"
+  },
+  {
+   "memo_id": 54,
+   "event_date": "2026-07-23",
+   "date_unknown": false,
+   "type": "confusion",
+   "status": "present",
+   "time_expr": "어제 아침",
+   "count": 1,
+   "evidence": "어제 아침 지금이 아침인지 저녁인지 헷갈려하심"
+  },
+  {
+   "memo_id": 55,
+   "event_date": "2026-07-24",
+   "date_unknown": false,
+   "type": "reduced_intake",
+   "status": "present",
+   "time_expr": "어제 점심때",
+   "count": 1,
+   "evidence": "어제 점심때 평소보다 식사를 절반도 안 드심"
+  },
+  {
+   "memo_id": 55,
+   "event_date": "2026-07-24",
+   "date_unknown": false,
+   "type": "medication_refusal",
+   "status": "present",
+   "time_expr": "어제",
+   "count": 1,
+   "evidence": "어제 약은 나중에 먹겠다고 계속 미루심"
+  },
+  {
+   "memo_id": 55,
+   "event_date": "2026-07-24",
+   "date_unknown": false,
+   "type": "low_mood_apathy",
+   "status": "present",
+   "time_expr": "어제 저녁",
+   "count": 1,
+   "evidence": "어제 저녁 기운 없이 멍하니 앉아 계심"
+  },
+  {
+   "memo_id": 56,
+   "event_date": "2026-07-26",
+   "date_unknown": false,
+   "type": "night_waking",
+   "status": "present",
+   "time_expr": "새벽 3시쯤",
+   "count": 1,
+   "evidence": "새벽 3시쯤 깨셔서 한참 못 주무심"
+  },
+  {
+   "memo_id": 56,
+   "event_date": "2026-07-26",
+   "date_unknown": false,
+   "type": "irritability",
+   "status": "present",
+   "time_expr": "어제 오후",
+   "count": 1,
+   "evidence": "어제 오후 사소한 걸로 계속 신경질 내심"
+  },
+  {
+   "memo_id": 57,
+   "event_date": "2026-07-28",
+   "date_unknown": false,
+   "type": "night_waking",
+   "status": "present",
+   "time_expr": "새벽에",
+   "count": 3,
+   "evidence": "새벽에 세 번이나 깨셔서 나도 잠을 설침"
+  },
+  {
+   "memo_id": 62,
+   "event_date": "2026-08-02",
+   "date_unknown": false,
+   "type": "low_mood_apathy",
+   "status": "present",
+   "time_expr": "어제 오후",
+   "count": 1,
+   "evidence": "어제 오후 기운 없이 멍하니 앉아 계심"
+  },
+  {
+   "memo_id": 63,
+   "event_date": "2026-08-03",
+   "date_unknown": false,
+   "type": "night_waking",
+   "status": "present",
+   "time_expr": "새벽 3시쯤",
+   "count": 1,
+   "evidence": "새벽 3시쯤 깨셔서 한참 못 주무심"
+  },
+  {
+   "memo_id": 63,
+   "event_date": "2026-08-03",
+   "date_unknown": false,
+   "type": "irritability",
+   "status": "present",
+   "time_expr": "어제",
+   "count": 1,
+   "evidence": "어제 리모컨 못 찾으신다고 버럭 화내심"
+  },
+  {
+   "memo_id": 63,
+   "event_date": "2026-08-03",
+   "date_unknown": false,
+   "type": "confusion",
+   "status": "present",
+   "time_expr": "어제",
+   "count": 1,
+   "evidence": "어제 지금이 아침인지 저녁인지 헷갈려하심"
+  },
+  {
+   "memo_id": 67,
+   "event_date": "2026-08-08",
+   "date_unknown": false,
+   "type": "night_waking",
+   "status": "present",
+   "time_expr": "새벽에",
+   "count": 1,
+   "evidence": "새벽에 깨셔서 다시 주무시기까지 한 시간 넘게 걸림"
+  },
+  {
+   "memo_id": 68,
+   "event_date": "2026-08-09",
+   "date_unknown": false,
+   "type": "night_waking",
+   "status": "present",
+   "time_expr": "새벽 두 시쯤",
+   "count": 1,
+   "evidence": "새벽 두 시쯤 깨셔서 불 켜 놓고 앉아 계심"
+  },
+  {
+   "memo_id": 68,
+   "event_date": "2026-08-09",
+   "date_unknown": false,
+   "type": "anxiety",
+   "status": "present",
+   "time_expr": "어제 오후",
+   "count": 1,
+   "evidence": "어제 오후 누가 문 두드릴까 봐 무섭다고 하심"
+  },
+  {
+   "memo_id": 71,
+   "event_date": "2026-08-12",
+   "date_unknown": false,
+   "type": "medication_refusal",
+   "status": "present",
+   "time_expr": "어제 점심때",
+   "count": 1,
+   "evidence": "어제 점심때 약은 나중에 먹겠다고 계속 미루심"
+  },
+  {
+   "memo_id": 73,
+   "event_date": "2026-08-14",
+   "date_unknown": false,
+   "type": "reduced_intake",
+   "status": "present",
+   "time_expr": "어제 아침",
+   "count": 1,
+   "evidence": "어제 아침 평소보다 식사를 절반도 안 드심"
+  },
+  {
+   "memo_id": 76,
+   "event_date": "2026-08-18",
+   "date_unknown": false,
+   "type": "night_waking",
+   "status": "present",
+   "time_expr": "새벽에",
+   "count": 2,
+   "evidence": "새벽에 두 번 깨셔서 나도 잠을 설침"
+  },
+  {
+   "memo_id": 76,
+   "event_date": "2026-08-18",
+   "date_unknown": false,
+   "type": "irritability",
+   "status": "present",
+   "time_expr": "어제",
+   "count": 2,
+   "evidence": "어제 별것 아닌 일로 두 번 짜증 내심"
+  },
+  {
+   "memo_id": 78,
+   "event_date": "2026-08-20",
+   "date_unknown": false,
+   "type": "night_waking",
+   "status": "present",
+   "time_expr": "새벽에",
+   "count": 1,
+   "evidence": "새벽에 깨셔서 불 켜 놓고 앉아 계심"
+  },
+  {
+   "memo_id": 79,
+   "event_date": "2026-08-21",
+   "date_unknown": false,
+   "type": "irritability",
+   "status": "present",
+   "time_expr": "어제 점심때",
+   "count": 1,
+   "evidence": "어제 점심때 옷 갈아입혀 드리는데 괜히 짜증 내심"
+  },
+  {
+   "memo_id": 79,
+   "event_date": "2026-08-21",
+   "date_unknown": false,
+   "type": "reduced_intake",
+   "status": "present",
+   "time_expr": "어제 오후",
+   "count": 1,
+   "evidence": "어제 오후 죽을 몇 숟갈만 드시고 마심"
+  },
+  {
+   "memo_id": 80,
+   "event_date": "2026-08-22",
+   "date_unknown": false,
+   "type": "irritability",
+   "status": "present",
+   "time_expr": "어제 점심때",
+   "count": 1,
+   "evidence": "어제 점심때 옷 갈아입혀 드리는데 괜히 짜증 내심"
+  },
+  {
+   "memo_id": 81,
+   "event_date": "2026-08-23",
+   "date_unknown": false,
+   "type": "night_waking",
+   "status": "present",
+   "time_expr": "어젯밤",
+   "count": 1,
+   "evidence": "어젯밤 깨셔서 다시 주무시기까지 한 시간 넘게 걸림"
+  },
+  {
+   "memo_id": 82,
+   "event_date": "2026-08-24",
+   "date_unknown": false,
+   "type": "irritability",
+   "status": "present",
+   "time_expr": "어제 오후",
+   "count": 1,
+   "evidence": "어제 오후 리모컨 못 찾으신다고 버럭 화내심"
+  },
+  {
+   "memo_id": 82,
+   "event_date": "2026-08-24",
+   "date_unknown": false,
+   "type": "low_mood_apathy",
+   "status": "present",
+   "time_expr": "어제",
+   "count": 1,
+   "evidence": "어제 좋아하시던 트로트 틀어 드려도 관심 없으심"
+  },
+  {
+   "memo_id": 83,
+   "event_date": "2026-08-25",
+   "date_unknown": false,
+   "type": "night_waking",
+   "status": "present",
+   "time_expr": "어젯밤",
+   "count": 1,
+   "evidence": "어젯밤 깨셔서 불 켜 놓고 앉아 계심"
+  },
+  {
+   "memo_id": 83,
+   "event_date": "2026-08-25",
+   "date_unknown": false,
+   "type": "wandering_exit",
+   "status": "present",
+   "time_expr": "어제 아침",
+   "count": 1,
+   "evidence": "어제 아침 현관문 열고 나가시려는 걸 말림"
+  },
+  {
+   "memo_id": 83,
+   "event_date": "2026-08-25",
+   "date_unknown": false,
+   "type": "delusion",
+   "status": "present",
+   "time_expr": "어제 오후",
+   "count": 1,
+   "evidence": "어제 오후 며느리가 반찬에 뭘 넣었다고 의심하심"
+  },
+  {
+   "memo_id": 85,
+   "event_date": "2026-08-27",
+   "date_unknown": false,
+   "type": "night_waking",
+   "status": "present",
+   "time_expr": "새벽 두 시쯤",
+   "count": 1,
+   "evidence": "새벽 두 시쯤 깨셔서 한참 못 주무심"
+  },
+  {
+   "memo_id": 85,
+   "event_date": "2026-08-27",
+   "date_unknown": false,
+   "type": "wandering_exit",
+   "status": "present",
+   "time_expr": "어제",
+   "count": 1,
+   "evidence": "어제 신발 신고 나가신다고 해서 한참 달램"
+  },
+  {
+   "memo_id": 85,
+   "event_date": "2026-08-27",
+   "date_unknown": false,
+   "type": "irritability",
+   "status": "present",
+   "time_expr": "어제 아침",
+   "count": 2,
+   "evidence": "어제 아침 별것 아닌 일로 두 번 짜증 내심"
+  },
+  {
+   "memo_id": 87,
+   "event_date": "2026-08-29",
+   "date_unknown": false,
+   "type": "night_waking",
+   "status": "present",
+   "time_expr": "새벽 두 시쯤",
+   "count": 1,
+   "evidence": "새벽 두 시쯤 깨셔서 불 켜 놓고 앉아 계심"
+  },
+  {
+   "memo_id": 87,
+   "event_date": "2026-08-29",
+   "date_unknown": false,
+   "type": "wandering_exit",
+   "status": "present",
+   "time_expr": "어제 점심때",
+   "count": 2,
+   "evidence": "어제 점심때 현관문 쪽으로 두 번 나가시려 함"
+  },
+  {
+   "memo_id": 88,
+   "event_date": "2026-08-30",
+   "date_unknown": false,
+   "type": "night_waking",
+   "status": "present",
+   "time_expr": "어젯밤",
+   "count": 2,
+   "evidence": "어젯밤 두 번 깨셔서 나도 잠을 설침"
+  },
+  {
+   "memo_id": 88,
+   "event_date": "2026-08-30",
+   "date_unknown": false,
+   "type": "wandering_exit",
+   "status": "present",
+   "time_expr": "어제 오후",
+   "count": 1,
+   "evidence": "어제 오후 현관문 열고 나가시려는 걸 말림"
+  },
+  {
+   "memo_id": 88,
+   "event_date": "2026-08-30",
+   "date_unknown": false,
+   "type": "agitation",
+   "status": "present",
+   "time_expr": "어제 점심때",
+   "count": 1,
+   "evidence": "어제 점심때 목욕시켜 드리는데 소리 지르시고 밀치심"
+  },
+  {
+   "memo_id": 89,
+   "event_date": "2026-08-31",
+   "date_unknown": false,
+   "type": "night_waking",
+   "status": "present",
+   "time_expr": "새벽에",
+   "count": 2,
+   "evidence": "새벽에 두 번 깨심"
+  },
+  {
+   "memo_id": 89,
+   "event_date": "2026-08-31",
+   "date_unknown": false,
+   "type": "wandering_exit",
+   "status": "present",
+   "time_expr": "어제 점심때",
+   "count": 1,
+   "evidence": "어제 점심때 아파트 복도로 나가셔서 모시고 들어옴"
+  },
+  {
+   "memo_id": 92,
+   "event_date": "2026-09-03",
+   "date_unknown": false,
+   "type": "irritability",
+   "status": "present",
+   "time_expr": "어제 아침",
+   "count": 2,
+   "evidence": "어제 아침 별것 아닌 일로 두 번 짜증 내심"
+  },
+  {
+   "memo_id": 92,
+   "event_date": "2026-09-03",
+   "date_unknown": false,
+   "type": "fall",
+   "status": "present",
+   "time_expr": "어제",
+   "count": 1,
+   "evidence": "어제 화장실 가시다가 미끄러져 넘어지심"
+  },
+  {
+   "memo_id": 93,
+   "event_date": "2026-09-04",
+   "date_unknown": false,
+   "type": "night_waking",
+   "status": "present",
+   "time_expr": "어젯밤",
+   "count": 3,
+   "evidence": "어젯밤 세 번이나 깨심"
+  },
+  {
+   "memo_id": 93,
+   "event_date": "2026-09-04",
+   "date_unknown": false,
+   "type": "anxiety",
+   "status": "present",
+   "time_expr": "어제 점심때",
+   "count": 2,
+   "evidence": "어제 점심때 혼자 있기 무섭다고 두 번 전화하심"
+  },
+  {
+   "memo_id": 93,
+   "event_date": "2026-09-04",
+   "date_unknown": false,
+   "type": "medication_refusal",
+   "status": "present",
+   "time_expr": "어제",
+   "count": 1,
+   "evidence": "어제 약은 나중에 먹겠다고 계속 미루심"
+  },
+  {
+   "memo_id": 94,
+   "event_date": "2026-09-05",
+   "date_unknown": false,
+   "type": "confusion",
+   "status": "present",
+   "time_expr": "어제 아침",
+   "count": 1,
+   "evidence": "어제 아침 나를 언니라고 부르심"
+  },
+  {
+   "memo_id": 95,
+   "event_date": "2026-09-06",
+   "date_unknown": false,
+   "type": "night_waking",
+   "status": "present",
+   "time_expr": "어젯밤",
+   "count": 3,
+   "evidence": "어젯밤 세 번이나 깨심"
+  },
+  {
+   "memo_id": 95,
+   "event_date": "2026-09-06",
+   "date_unknown": false,
+   "type": "wandering_exit",
+   "status": "present",
+   "time_expr": "어제 저녁",
+   "count": 1,
+   "evidence": "어제 저녁 현관문 열고 나가시려는 걸 말림"
+  },
+  {
+   "memo_id": 95,
+   "event_date": "2026-09-06",
+   "date_unknown": false,
+   "type": "anxiety",
+   "status": "present",
+   "time_expr": "어제 오후",
+   "count": 2,
+   "evidence": "어제 오후 혼자 있기 무섭다고 두 번 전화하심"
+  },
+  {
+   "memo_id": 95,
+   "event_date": "2026-09-06",
+   "date_unknown": false,
+   "type": "confusion",
+   "status": "present",
+   "time_expr": "어제 점심때",
+   "count": 1,
+   "evidence": "어제 점심때 지금이 아침인지 저녁인지 헷갈려하심"
+  },
+  {
+   "memo_id": 96,
+   "event_date": "2026-09-07",
+   "date_unknown": false,
+   "type": "night_waking",
+   "status": "present",
+   "time_expr": "새벽 두 시쯤",
+   "count": 1,
+   "evidence": "새벽 두 시쯤 깨셔서 한참 못 주무심"
+  },
+  {
+   "memo_id": 96,
+   "event_date": "2026-09-07",
+   "date_unknown": false,
+   "type": "wandering_exit",
+   "status": "present",
+   "time_expr": "어제",
+   "count": 1,
+   "evidence": "어제 집 안을 계속 서성이심"
+  },
+  {
+   "memo_id": 96,
+   "event_date": "2026-09-07",
+   "date_unknown": false,
+   "type": "hallucination",
+   "status": "present",
+   "time_expr": "어제 저녁",
+   "count": 1,
+   "evidence": "어제 저녁 방에 모르는 아이들이 있다고 하심"
+  },
+  {
+   "memo_id": 97,
+   "event_date": "2026-09-08",
+   "date_unknown": false,
+   "type": "night_waking",
+   "status": "present",
+   "time_expr": "새벽에",
+   "count": 2,
+   "evidence": "새벽에 두 번 깨셔서 나도 잠을 설침"
+  },
+  {
+   "memo_id": 99,
+   "event_date": "2026-09-10",
+   "date_unknown": false,
+   "type": "wandering_exit",
+   "status": "present",
+   "time_expr": "어제",
+   "count": 2,
+   "evidence": "어제 현관문 쪽으로 두 번 나가시려 함"
+  },
+  {
+   "memo_id": 100,
+   "event_date": "2026-09-11",
+   "date_unknown": false,
+   "type": "night_waking",
+   "status": "present",
+   "time_expr": "어젯밤",
+   "count": 1,
+   "evidence": "어젯밤 깨셔서 다시 주무시기까지 한 시간 넘게 걸림"
+  },
+  {
+   "memo_id": 101,
+   "event_date": "2026-09-12",
+   "date_unknown": false,
+   "type": "hallucination",
+   "status": "present",
+   "time_expr": "어젯밤",
+   "count": 1,
+   "evidence": "어젯밤 방에 모르는 아이들이 있다고 하심"
+  },
+  {
+   "memo_id": 102,
+   "event_date": "2026-09-13",
+   "date_unknown": false,
+   "type": "night_waking",
+   "status": "absent",
+   "time_expr": "어젯밤",
+   "count": 1,
+   "evidence": "어젯밤엔 한 번도 안 깨고 푹 주무심"
+  },
+  {
+   "memo_id": 103,
+   "event_date": "2026-09-17",
+   "date_unknown": false,
+   "type": "night_waking",
+   "status": "absent",
+   "time_expr": "어젯밤",
+   "count": 1,
+   "evidence": "어젯밤엔 안 깨시고 아침까지 주무심"
+  },
+  {
+   "memo_id": 104,
+   "event_date": "2026-09-20",
+   "date_unknown": false,
+   "type": "irritability",
+   "status": "present",
+   "time_expr": "어제 아침",
+   "count": 1,
+   "evidence": "어제 아침 옷 갈아입혀 드리는데 괜히 짜증 내심"
+  },
+  {
+   "memo_id": 104,
+   "event_date": "2026-09-20",
+   "date_unknown": false,
+   "type": "hallucination",
+   "status": "present",
+   "time_expr": "어젯밤",
+   "count": 1,
+   "evidence": "어젯밤 방에 모르는 아이들이 있다고 하심"
+  },
+  {
+   "memo_id": 105,
+   "event_date": "2026-09-23",
+   "date_unknown": false,
+   "type": "wandering_exit",
+   "status": "present",
+   "time_expr": "어제 점심때",
+   "count": 1,
+   "evidence": "어제 점심때 아파트 복도로 나가셔서 모시고 들어옴"
+  },
+  {
+   "memo_id": 105,
+   "event_date": "2026-09-23",
+   "date_unknown": false,
+   "type": "confusion",
+   "status": "present",
+   "time_expr": "어제 아침",
+   "count": 2,
+   "evidence": "어제 아침 나를 두 번 언니라고 부르심"
+  },
+  {
+   "memo_id": 106,
+   "event_date": null,
+   "date_unknown": true,
+   "type": "low_mood_apathy",
+   "status": "present",
+   "time_expr": "요즘",
+   "count": 1,
+   "evidence": "요즘 부쩍 기운이 없으시고 말씀도 잘 안 하심"
+  },
+  {
+   "memo_id": 106,
+   "event_date": "2026-09-24",
+   "date_unknown": false,
+   "type": "night_waking",
+   "status": "absent",
+   "time_expr": "어젯밤",
+   "count": 1,
+   "evidence": "어젯밤엔 안 깨시고 아침까지 주무심"
+  },
+  {
+   "memo_id": 106,
+   "event_date": "2026-09-24",
+   "date_unknown": false,
+   "type": "reduced_intake",
+   "status": "present",
+   "time_expr": "어제",
+   "count": 1,
+   "evidence": "어제 죽을 몇 숟갈만 드시고 마심"
+  },
+  {
+   "memo_id": 107,
+   "event_date": "2026-09-25",
+   "date_unknown": false,
+   "type": "irritability",
+   "status": "present",
+   "time_expr": "어제",
+   "count": 1,
+   "evidence": "어제 옷 갈아입혀 드리는데 괜히 짜증 내심"
+  }
+ ]
+}
