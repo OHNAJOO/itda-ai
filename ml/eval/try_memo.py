@@ -9,7 +9,7 @@ import argparse, json, sys, time, urllib.request
 from pathlib import Path
 
 ap = argparse.ArgumentParser()
-ap.add_argument("--model", default="itda-a")
+ap.add_argument("--model", default="itda-gemma4-e4b-q4_k_m")
 ap.add_argument("--file", default=None)
 ap.add_argument("--no-schema", action="store_true")
 ap.add_argument("--num-predict", type=int, default=1024, help="답 최대 길이(토큰). 평가는 384")
